@@ -3620,6 +3620,10 @@ div[class*="fixClipping"]
 
 /* Custom code start here */
 
+.mention {
+	background-color: var(--md-mantle);
+	color: var(--md-mauve2);
+}
 #app-mount .app_b1f720 .base_c0676e {
 	top: calc(var(--server-container) + var(--spacing)) !important;
 }
