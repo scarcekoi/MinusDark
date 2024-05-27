@@ -3611,7 +3611,7 @@ div[class*="fixClipping"]
   background: rgba(243, 139, 168, 0.15);
 }
 
-/* Custom code start here *\
+/* Custom code start here */
 
 /* horizontal server list fix */
 #app-mount .app_b1f720 .base_c0676e {
@@ -3629,4 +3629,8 @@ div[class*="fixClipping"]
 /* spin hover animations */
 button.button_ae40a4 /* make user panel buttons round */ {
 	border-radius: 50%;
+}
+.container_a48b21:hover,
+.channel__0aef5:hover {
+	margin-left: 18px;
 }
