@@ -3624,6 +3624,9 @@ div[class*="fixClipping"]
 	background-color: var(--md-mantle);
 	color: var(--md-mauve2);
 }
+.mention:hover {
+	background-color: var(--md-mauve1);
+}
 #app-mount .app_b1f720 .base_c0676e {
 	top: calc(var(--server-container) + var(--spacing)) !important;
 }
