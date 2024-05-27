@@ -3620,6 +3620,44 @@ div[class*="fixClipping"]
 
 /* Custom code start here */
 
+.members__573eb {
+	background-color: var(--md-floating);
+}
+.members__573eb,
+.membersWrap__5ca6b,
+.container_f79ab4 {
+  min-width: 60px;
+  transition-duration: 500ms;
+  transition-property: box-shadow, min-width, width;
+  width: 60px;
+  z-index: 10;
+}
+
+.members__573eb:hover,
+.membersWrap__5ca6b:hover {
+  min-width: 240px;
+  width: 240px;
+}
+
+.membersWrap__5ca6b {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.membersWrap__5ca6b:hover {
+  box-shadow: 0 0 20px 10px #00000044;
+}
+
+.membersGroup_cad095 {
+  height: 0;
+  transition-duration: 500ms;
+  transition-property: height;
+}
+
+.members__573eb:hover .membersGroup_cad095 {
+  height: 40px;
+}
 .name__4eb92, .name__27f04 {
   color: var(--md-mauve0);
 }
