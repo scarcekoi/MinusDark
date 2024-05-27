@@ -8,28 +8,35 @@
 
 :root {
   --md-floating: #0d0d15;
-  --md-main: #11111b;
-  --md-main2: #1e1e2e;
-  --md-main3: #24273a;
-  --md-main4: #1e1e2a;
-  --md-main5: #161622;
-  --md-main5: #161622;
-  --md-main6: #181825;
-  --md-light-blue-violet: #a86eff;
-  --md-blue-violet: #8a2be2;
-  --md-discord-default: #cdd6f4;
-  --md-light-grey: #494d64;
-  --md-darkish-grey: #363a4f;
-  --md-dark-purple: #ca9ee6;
-  --md-status-red: #eba0ac;
-  --md-discord-red: #f23f42;
-  --md-pink: #f38ba8;
-  --md-darky-grey: #45475a;
-  --md-dark-pink: #f5c2e7;
-  --md-darkish-green: #a6e3a1;
-  --md-kinda-dark-grey: #313244;
-  --md-very-dark-grey: #23242d;
-  --md-discord-blue: #505cdc;
+  --md-crust: #11111b;
+  --md-mantle: #181825;
+  --md-base: #1e1e2e;
+  --md-surface0: #313244;
+  --md-surface1: #45475a;
+  --md-surface2: #585b70;
+  --md-overlay0: #6c7086;
+  --md-overlay1: #7f849c;
+  --md-overlay2: #9399b2;
+  --md-subtext0: #a6adc8;
+  --md-subtext1: #bac2de;
+  --md-text: #cdd6f4;
+  --md-lavender: #b4befe;
+  --md-blue0: #89b4fa;
+  --md-blue1: #505cdc;
+  --md-sapphire: #74c7ec;
+  --md-sky: #89dceb;
+  --md-teal: #94e2d5;
+  --md-green: #a6e3a1;
+  --md-yellow: #f9e2af;
+  --md-peach: #fab387;
+  --md-maroon: #eba0ac;
+  --md-red: #f38ba8;
+  --md-mauve0: #cba6f7;
+  --md-mauve1: #8a2be2;
+  --md-mauve2: #a86eff;
+  --md-pink: #f5c2e7;
+  --md-flamingo: #f2cdcd;
+  --md-rosewater: #f5e0dc;
 }
 
 [data-popout-root],
@@ -3613,24 +3620,30 @@ div[class*="fixClipping"]
 
 /* Custom code start here */
 
-/* horizontal server list fix */
 #app-mount .app_b1f720 .base_c0676e {
 	top: calc(var(--server-container) + var(--spacing)) !important;
 }
-
-/* list hover animations */
 .wrapper__612a5 .link_ddbb36 /* channels */,
 .container_a48b21 /* members */,
 .channel__0aef5 /* dms */,
 .side_b4b3f6 .item__48dda /* settings */ {
 	transition: margin-left var(--list-item-transition);
 }
-
-/* spin hover animations */
-button.button_ae40a4 /* make user panel buttons round */ {
-	border-radius: 50%;
+.wrapper__612a5:hover .link_ddbb36,
+.side_b4b3f6 .item__48dda:hover {
+	margin-left: 10px;
 }
 .container_a48b21:hover,
 .channel__0aef5:hover {
 	margin-left: 18px;
+}
+button.button_ae40a4 /* make user panel buttons round */ {
+	border-radius: 50%;
+}
+.button_ae40a4:last-child .contents__322f4 /* settings button */, 
+.attachButton__56f98 .attachButtonInner__84c26 /* upload button */,
+.emojiButton_b63c38 .contents__322f4 /* emoji button */,
+.closeButton__8177f /* settings exit button */,
+.contents__322f4 > .closeIcon__16020 /* modal close */ {
+	transition: transform var(--icon-spin-transition);
 }
