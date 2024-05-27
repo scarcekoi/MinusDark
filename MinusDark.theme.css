@@ -3702,6 +3702,9 @@ div[class*="fixClipping"]
 .members__573eb {
 	background-color: var(--md-macchiato-crust);
 }
+.role__18ec9, .compactButton__87ab2 {
+	background-color: var(--md-mocha-base);
+}
 .members__573eb,
 .membersWrap__5ca6b,
 .container_f79ab4 {
