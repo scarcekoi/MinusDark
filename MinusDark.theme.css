@@ -1476,13 +1476,13 @@ ul[aria-label$=" threads"] > li:nth-child(1n) {
 }
 ul[aria-label$=" threads"] > li:nth-child(2n) {
   --channels-default: #dbccd3;
-  --interactive-hover: var(--md-mocha-peach);
-  --interactive-active: var(--md-mocha-peach);
+  --interactive-hover: var(--md-latte-mauve);
+  --interactive-active: var(--md-latte-mauve);
 }
 ul[aria-label$=" threads"] > li:nth-child(3n) {
   --channels-default: #dadadf;
-  --interactive-hover: var(--md-mocha-yellow);
-  --interactive-active: var(--md-mocha-yellow);
+  --interactive-hover: var(--md-latte-mauve);
+  --interactive-active: var(--md-latte-mauve);
 }
 ul[aria-label$=" threads"] > li:nth-child(4n) {
   --channels-default: #c1dadb;
@@ -3704,6 +3704,7 @@ div[class*="fixClipping"]
 	--spacing: 12px;
 }
 
+
 [class^='winButton'] > svg {
 	display: none;
 }
@@ -3745,7 +3746,7 @@ div[class*="fixClipping"]
 .members__573eb {
 	background-color: var(--md-macchiato-crust);
 }
-.role__18ec9, .compactButton__87ab2 {
+.role__18ec9,.showMoreButton__50b95, .compactButton__87ab2  {
 	background-color: var(--md-mocha-base);
 }
 .members__573eb,
