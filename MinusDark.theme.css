@@ -1,47 +1,126 @@
 /**
  * @name MinusDark
- * @description Soothing pastel theme for midnight
  * @author scarcekoi
+ * @authorId 1167818576992936019
  * @version 0.1
+ * @description Soothing theme for any time
+ * @authorLink https://github.com/scarcekoi
  * @website https://github.com/scarcekoi/minusdark
+ * @invite X8QBgNdRFd
 */
 
 :root {
   --md-black: black;
   --md-floating: #0d0d15;
-  --md-crust: #11111b;
-  --md-mantle: #181825;
-  --md-base: #1e1e2e;
-  --md-surface0: #313244;
-  --md-surface1: #45475a;
-  --md-surface2: #585b70;
-  --md-overlay0: #6c7086;
-  --md-overlay1: #7f849c;
-  --md-overlay2: #9399b2;
-  --md-subtext0: #a6adc8;
-  --md-subtext1: #bac2de;
-  --md-text: #cdd6f4;
-  --md-lavender: #b4befe;
-  --md-blue0: #89b4fa;
-  --md-blue1: #505cdc;
-  --md-sapphire: #74c7ec;
-  --md-sky: #89dceb;
-  --md-teal: #94e2d5;
-  --md-green: #a6e3a1;
-  --md-yellow: #f9e2af;
-  --md-peach: #fab387;
-  --md-maroon: #eba0ac;
-  --md-red: #f38ba8;
-  --md-mauve0: #cba6f7;
-  --md-mauve1: #8a2be2;
-  --md-pink: #f5c2e7;
-  --md-flamingo: #f2cdcd;
-  --md-rosewater: #f5e0dc;
+  --md-mocha-crust: #11111b;
+  --md-macchiato-crust: #181926;
+  --md-frappe-crust: #dce0e8;
+  --md-latte-crust: #232634;
+  --md-mocha-mantle: #181825;
+  --md-macchiato-mantle: #1e2030;
+  --md-frappe-mantle: #e6e9ef;
+  --md-latte-mantle: #292c3c;
+  --md-mocha-base: #1e1e2e;
+  --md-macchiato-base: #24273a;
+  --md-frappe-base: #eff1f5;
+  --md-latte-base: #303446;
+  --md-mocha-surface0: #313244;
+  --md-macchiato-surface0: #363a4f;
+  --md-frappe-surface0: #ccd0da;
+  --md-latte-surface0: #414559;
+  --md-mocha-surface1: #45475a;
+  --md-macchiato-surface1: #494d64;
+  --md-frappe-surface1: #bcc0cc;
+  --md-latte-surface1: #51576d;
+  --md-mocha-surface2: #585b70;
+  --md-macchiato-surface2: #5b6078;
+  --md-frappe-surface2: #626880;
+  --md-latte-surface2: #acb0be;
+  --md-mocha-overlay0: #6c7086;
+  --md-macchiato-overlay0: #6e738d;
+  --md-frappe-overlay0: #737994;
+  --md-latte-overlay0: #9ca0b0;
+  --md-mocha-overlay1: #7f849c;
+  --md-macchiato-overlay1: #8087a2;
+  --md-frappe-overlay1: #838ba7;
+  --md-latte-overlay1: #8c8fa1;
+  --md-mocha-overlay2: #9399b2;
+  --md-macchiato-overlay2: #939ab7;
+  --md-frappe-overlay2: #949cbb;
+  --md-latte-overlay2: #7c7f93;
+  --md-mocha-subtext0: #a6adc8;
+  --md-macchiato-subtext0: #a5adcb;
+  --md-frappe-subtext0: #a5adce;
+  --md-latte-subtext0: #6c6f85;
+  --md-mocha-subtext1: #bac2de;
+  --md-macchiato-subtext1: #b8c0e0;
+  --md-frappe-subtext1: #b5bfe2;
+  --md-latte-subtext1: #5c5f77;
+  --md-mocha-text: #cdd6f4;
+  --md-macchiato-text: #cad3f5;
+  --md-frappe-text: #c6d0f5;
+  --md-latte-text: #4c4f69;
+  --md-mocha-lavender: #b4befe;
+  --md-macchiato-lavender: #b7bdf8;
+  --md-frappe-lavender: #babbf1;
+  --md-latte-lavender: #7287fd;
+  --md-mocha-blue: #89b4fa;
+  --md-macchiato-blue: #8aadf4;
+  --md-frappe-blue: #8caaee;
+  --md-latte-blue: #1e66f5;
+  --md-mocha-sapphire: #74c7ec;
+  --md-macchiato-sapphire: #7dc4e4;
+  --md-frappe-sapphire: #85c1dc;
+  --md-latte-sapphire: #209fb5;
+  --md-mocha-sky: #89dceb;
+  --md-macchiato-sky: #91d7e3;
+  --md-frappe-sky: #04a5e5;
+  --md-latte-sky: #99d1db;
+  --md-mocha-teal: #94e2d5;
+  --md-macchiato-teal: #8bd5ca;
+  --md-frappe-teal: #179299;
+  --md-latte-teal: #81c8be;
+  --md-mocha-green: #a6e3a1;
+  --md-macchiato-green: #a6da95;
+  --md-frappe-green: #a6d189;
+  --md-latte-green: #40a02b;
+  --md-mocha-yellow: #f9e2af;
+  --md-macchiato-yellow: #eed49f;
+  --md-frappe-yellow: #e5c890;
+  --md-latte-yellow: #df8e1d;
+  --md-mocha-peach: #fab387;
+  --md-macchiato-peach: #f5a97f;
+  --md-frappe-peach: #ef9f76;
+  --md-latte-peach: #fe640b;
+  --md-mocha-maroon: #eba0ac;
+  --md-macchiato-maroon: #ee99a0;
+  --md-frappe-maroon: #ea999c;
+  --md-latte-maroon: #e64553;
+  --md-mocha-red: #f38ba8;
+  --md-macchiato-red: #ed8796;
+  --md-frappe-red: #e78284;
+  --md-latte-red: #d20f39;
+  --md-mocha-mauve: #cba6f7;
+  --md-macchiato-mauve: #c6a0f6;
+  --md-frappe-mauve: #ca9ee6;
+  --md-latte-mauve: #8839ef;
+  --md-mocha-pink: #f5c2e7;
+  --md-macchiato-pink: #f5bde6;
+  --md-frappe-pink: #f4b8e4;
+  --md-latte-pink: #ea76cb;
+  --md-mocha-flamingo: #f2cdcd;
+  --md-macchiato-flamingo: #f0c6c6;
+  --md-frappe-flamingo: #eebebe;
+  --md-latte-flamingo: #dd7878;
+  --md-mocha-rosewater: #f5e0dc;
+  --md-macchiato-rosewater: #f4dbd6;
+  --md-frappe-rosewater: #f2d5cf;
+  --md-latte-rosewater: #dc8a78;
 }
 
 [data-popout-root],
 html {
-  --brand-experiment: var(--md-mauve0);
+  --brand-experiment: var(--md-mocha-mauve);
   --brand-experiment-100: white;
   --brand-experiment-130: white;
   --brand-experiment-160: white;
@@ -54,7 +133,7 @@ html {
   --brand-experiment-400: #f4ecfd;
   --brand-experiment-430: #e6d5fb;
   --brand-experiment-460: #d9bdf9;
-  --brand-experiment-500: var(--md-mauve0);
+  --brand-experiment-500: var(--md-mocha-mauve);
   --brand-experiment-530: #bd8ff5;
   --brand-experiment-560: #b077f3;
   --brand-experiment-600: #a260f1;
@@ -89,147 +168,147 @@ html {
 }
 .theme-dark,
 .theme-light {
-  --header-primary: var(--md-text);
-  --header-secondary: var(--md-subtext0);
-  --text-normal: var(--md-text);
-  --text-muted: var(--md-subtext0);
-  --text-link: var(--md-blue0);
-  --text-link-low-saturation: var(--md-sapphire);
-  --text-positive: var(--md-green);
-  --text-warning: var(--md-yellow);
-  --text-danger: var(--md-red);
-  --text-brand: var(--md-mauve0);
-  --background-primary: var(--md-base);
-  --background-secondary: var(--md-mantle);
+  --header-primary: var(--md-mocha-text);
+  --header-secondary: var(--md-mocha-subtext0);
+  --text-normal: var(--md-mocha-text);
+  --text-muted: var(--md-mocha-subtext0);
+  --text-link: var(--md-mocha-blue);
+  --text-link-low-saturation: var(--md-mocha-sapphire);
+  --text-positive: var(--md-mocha-green);
+  --text-warning: var(--md-mocha-yellow);
+  --text-danger: var(--md-mocha-red);
+  --text-brand: var(--md-mocha-mauve);
+  --background-primary: var(--md-mocha-base);
+  --background-secondary: var(--md-mocha-mantle);
   --background-secondary-alt: #14141f;
-  --background-tertiary: var(--md-crust);
-  --background-accent: var(--md-mauve0);
+  --background-tertiary: var(--md-mocha-crust);
+  --background-accent: var(--md-mocha-mauve);
   --background-floating: var(--md-floating);
-  --background-nested-floating: var(--md-mantle);
-  --background-mobile-primary: var(--md-base);
-  --background-mobile-secondary: var(--md-mantle);
-  --chat-background: var(--md-base);
-  --chat-border: var(--md-crust);
-  --chat-input-container-background: var(--md-base);
+  --background-nested-floating: var(--md-mocha-mantle);
+  --background-mobile-primary: var(--md-mocha-base);
+  --background-mobile-secondary: var(--md-mocha-mantle);
+  --chat-background: var(--md-mocha-base);
+  --chat-border: var(--md-mocha-crust);
+  --chat-input-container-background: var(--md-mocha-base);
   --background-modifier-hover: rgba(205, 214, 244, 0.15);
   --background-modifier-selected: rgba(205, 214, 244, 0.2);
   --background-modifier-accent: rgba(205, 214, 244, 0.26);
   --background-modifier-active: rgba(205, 214, 244, 0.17);
   --info-positive-background: rgba(166, 227, 161, 0.15);
-  --info-positive-foreground: var(--md-green);
-  --info-positive-text: var(--md-text);
+  --info-positive-foreground: var(--md-mocha-green);
+  --info-positive-text: var(--md-mocha-text);
   --info-warning-background: rgba(249, 226, 175, 0.15);
-  --info-warning-foreground: var(--md-yellow);
-  --info-warning-text: var(--md-text);
+  --info-warning-foreground: var(--md-mocha-yellow);
+  --info-warning-text: var(--md-mocha-text);
   --info-danger-background: rgba(243, 139, 168, 0.15);
-  --info-danger-foreground: var(--md-red);
-  --info-danger-text: var(--md-text);
+  --info-danger-foreground: var(--md-mocha-red);
+  --info-danger-text: var(--md-mocha-text);
   --info-help-background: rgba(137, 220, 235, 0.15);
-  --info-help-foreground: var(--md-sky);
-  --info-help-text: var(--md-text);
-  --status-positive-background: var(--md-green);
-  --status-positive-text: var(--md-base);
-  --status-warning-background: var(--md-yellow);
-  --status-warning-text: var(--md-base);
-  --status-danger-background: var(--md-red);
-  --status-danger-text: var(--md-base);
-  --status-danger: var(--md-red);
-  --status-positive: var(--md-green);
-  --status-warning: var(--md-yellow);
-  --status-yellow-400: var(--md-yellow);
-  --status-green-600: var(--md-green);
-  --primary-dark-600: var(--md-base);
-  --status-yellow-560: var(--md-yellow);
-  --status-red-500: var(--md-red);
-  --status-red-530: var(--md-red);
-  --status-yellow-500: var(--md-yellow);
-  --var(--md-black)-500: var(--md-crust);
-  --green-360: var(--md-green);
-  --yellow-360: var(--md-yellow);
-  --yellow-300: var(--md-yellow);
-  --red-400: var(--md-red);
-  --brand-500: var(--md-mauve0);
+  --info-help-foreground: var(--md-mocha-sky);
+  --info-help-text: var(--md-mocha-text);
+  --status-positive-background: var(--md-mocha-green);
+  --status-positive-text: var(--md-mocha-base);
+  --status-warning-background: var(--md-mocha-yellow);
+  --status-warning-text: var(--md-mocha-base);
+  --status-danger-background: var(--md-mocha-red);
+  --status-danger-text: var(--md-mocha-base);
+  --status-danger: var(--md-mocha-red);
+  --status-positive: var(--md-mocha-green);
+  --status-warning: var(--md-mocha-yellow);
+  --status-yellow-400: var(--md-mocha-yellow);
+  --status-green-600: var(--md-mocha-green);
+  --primary-dark-600: var(--md-mocha-base);
+  --status-yellow-560: var(--md-mocha-yellow);
+  --status-red-500: var(--md-mocha-red);
+  --status-red-530: var(--md-mocha-red);
+  --status-yellow-500: var(--md-mocha-yellow);
+  --var(--md-black)-500: var(--md-mocha-crust);
+  --green-360: var(--md-mocha-green);
+  --yellow-360: var(--md-mocha-yellow);
+  --yellow-300: var(--md-mocha-yellow);
+  --red-400: var(--md-mocha-red);
+  --brand-500: var(--md-mocha-mauve);
   --brand-560: #b077f3;
-  --primary-100: var(--md-subtext1);
-  --primary-300: var(--md-subtext1);
-  --primary-400: var(--md-subtext1);
-  --primary-dark-700: var(--md-crust);
-  --primary-800: var(--md-crust);
-  --status-green-560: var(--md-green);
-  --white-400: var(--md-text);
-  --white-500: var(--md-text);
-  --guild-boosting-pink: var(--md-pink);
-  --premium-perk-yellow: var(--md-yellow);
-  --premium-perk-purple: var(--md-mauve0);
+  --primary-100: var(--md-mocha-subtext1);
+  --primary-300: var(--md-mocha-subtext1);
+  --primary-400: var(--md-mocha-subtext1);
+  --primary-dark-700: var(--md-mocha-crust);
+  --primary-800: var(--md-mocha-crust);
+  --status-green-560: var(--md-mocha-green);
+  --white-400: var(--md-mocha-text);
+  --white-500: var(--md-mocha-text);
+  --guild-boosting-pink: var(--md-mocha-pink);
+  --premium-perk-yellow: var(--md-mocha-yellow);
+  --premium-perk-purple: var(--md-mocha-mauve);
   --premium-perk-dark-blue: #5895f8;
   --premium-perk-light-blue: #a1c4fb;
-  --premium-perk-blue: var(--md-blue0);
-  --premium-perk-green: var(--md-green);
-  --premium-perk-pink: var(--md-pink);
-  --premium-perk-orange: var(--md-peach);
-  --status-green-400: var(--md-green);
-  --button-danger-background: var(--md-red);
+  --premium-perk-blue: var(--md-mocha-blue);
+  --premium-perk-green: var(--md-mocha-green);
+  --premium-perk-pink: var(--md-mocha-pink);
+  --premium-perk-orange: var(--md-mocha-peach);
+  --status-green-400: var(--md-mocha-green);
+  --button-danger-background: var(--md-mocha-red);
   --button-danger-background-hover: #f17497;
   --button-danger-background-active: #b683f4;
-  --button-danger-background-disabled: var(--md-red);
-  --button-positive-background: var(--md-green);
+  --button-danger-background-disabled: var(--md-mocha-red);
+  --button-positive-background: var(--md-mocha-green);
   --button-positive-background-hover: #93dd8d;
   --button-positive-background-active: #8ada84;
-  --button-positive-background-disabled: var(--md-green);
-  --button-secondary-background: var(--md-surface1);
+  --button-positive-background-disabled: var(--md-mocha-green);
+  --button-secondary-background: var(--md-mocha-surface1);
   --button-secondary-background-hover: #3a3c4c;
   --button-secondary-background-active: #3a3c4c;
-  --button-secondary-background-disabled: var(--md-surface1);
-  --button-outline-danger-text: var(--md-text);
-  --button-outline-danger-border: var(--md-red);
+  --button-secondary-background-disabled: var(--md-mocha-surface1);
+  --button-outline-danger-text: var(--md-mocha-text);
+  --button-outline-danger-border: var(--md-mocha-red);
   --button-outline-danger-background: transparent;
   --button-outline-danger-background-hover: #f27f9f;
-  --button-outline-danger-text-hover: var(--md-base);
+  --button-outline-danger-text-hover: var(--md-mocha-base);
   --button-outline-danger-border-hover: #f27f9f;
   --button-outline-danger-background-active: #f17497;
-  --button-outline-danger-text-active: var(--md-base);
+  --button-outline-danger-text-active: var(--md-mocha-base);
   --button-outline-danger-border-active: #f27f9f;
-  --button-outline-positive-text: var(--md-text);
-  --button-outline-positive-border: var(--md-green);
+  --button-outline-positive-text: var(--md-mocha-text);
+  --button-outline-positive-border: var(--md-mocha-green);
   --button-outline-positive-background: transparent;
   --button-outline-positive-background-hover: #9de097;
-  --button-outline-positive-text-hover: var(--md-base);
+  --button-outline-positive-text-hover: var(--md-mocha-base);
   --button-outline-positive-border-hover: #9de097;
   --button-outline-positive-background-active: #93dd8d;
-  --button-outline-positive-text-active: var(--md-base);
+  --button-outline-positive-text-active: var(--md-mocha-base);
   --button-outline-positive-border-active: #9de097;
-  --button-outline-brand-text: var(--md-text);
-  --button-outline-brand-border: var(--md-mauve0);
+  --button-outline-brand-text: var(--md-mocha-text);
+  --button-outline-brand-border: var(--md-mocha-mauve);
   --button-outline-brand-background: transparent;
   --button-outline-brand-background-hover: #c49af6;
-  --button-outline-brand-text-hover: var(--md-base);
+  --button-outline-brand-text-hover: var(--md-mocha-base);
   --button-outline-brand-border-hover: #c49af6;
   --button-outline-brand-background-active: #bd8ff5;
-  --button-outline-brand-text-active: var(--md-base);
+  --button-outline-brand-text-active: var(--md-mocha-base);
   --button-outline-brand-border-active: #c49af6;
-  --button-outline-primary-text: var(--md-text);
-  --button-outline-primary-border: var(--md-surface2);
+  --button-outline-primary-text: var(--md-mocha-text);
+  --button-outline-primary-border: var(--md-mocha-surface2);
   --button-outline-primary-background: transparent;
   --button-outline-primary-background-hover: #525569;
-  --button-outline-primary-text-hover: var(--md-base);
+  --button-outline-primary-text-hover: var(--md-mocha-base);
   --button-outline-primary-border-hover: #525569;
   --button-outline-primary-background-active: #4d4f62;
-  --button-outline-primary-text-active: var(--md-base);
+  --button-outline-primary-text-active: var(--md-mocha-base);
   --button-outline-primary-border-active: #525569;
-  --modal-background: var(--md-base);
-  --modal-footer-background: var(--md-crust);
-  --scrollbar-thin-thumb: var(--md-mauve0);
+  --modal-background: var(--md-mocha-base);
+  --modal-footer-background: var(--md-mocha-crust);
+  --scrollbar-thin-thumb: var(--md-mocha-mauve);
   --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: var(--md-mauve0);
-  --scrollbar-auto-track: var(--md-crust);
-  --scrollbar-auto-scrollbar-color-thumb: var(--md-mauve0);
-  --scrollbar-auto-scrollbar-color-track: var(--md-crust);
-  --input-background: var(--md-crust);
-  --input-placeholder-text: var(--md-subtext1);
-  --logo-primary: var(--md-text);
-  --control-brand-foreground: var(--md-mauve0);
-  --control-brand-foreground-new: var(--md-mauve0);
-  --mention-foreground: var(--md-mauve0);
+  --scrollbar-auto-thumb: var(--md-mocha-mauve);
+  --scrollbar-auto-track: var(--md-mocha-crust);
+  --scrollbar-auto-scrollbar-color-thumb: var(--md-mocha-mauve);
+  --scrollbar-auto-scrollbar-color-track: var(--md-mocha-crust);
+  --input-background: var(--md-mocha-crust);
+  --input-placeholder-text: var(--md-mocha-subtext1);
+  --logo-primary: var(--md-mocha-text);
+  --control-brand-foreground: var(--md-mocha-mauve);
+  --control-brand-foreground-new: var(--md-mocha-mauve);
+  --mention-foreground: var(--md-mocha-mauve);
   --mention-background: rgba(203, 166, 247, 0.3);
   --background-mentioned: rgba(249, 226, 175, 0.1);
   --background-mentioned-hover: rgba(249, 226, 175, 0.08);
@@ -241,30 +320,30 @@ html {
   --channels-default: #969ebe;
   --channel-icon: #969ebe;
   --channel-text-area-placeholder: rgba(205, 214, 244, 0.5);
-  --channeltextarea-background: var(--md-mantle);
-  --activity-card-background: var(--md-crust);
-  --textbox-markdown-syntax: var(--md-overlay0);
-  --spoiler-revealed-background: var(--md-surface0);
-  --spoiler-hidden-background: var(--md-surface2);
-  --android-navigation-bar-background: var(--md-crust);
+  --channeltextarea-background: var(--md-mocha-mantle);
+  --activity-card-background: var(--md-mocha-crust);
+  --textbox-markdown-syntax: var(--md-mocha-overlay0);
+  --spoiler-revealed-background: var(--md-mocha-surface0);
+  --spoiler-hidden-background: var(--md-mocha-surface2);
+  --android-navigation-bar-background: var(--md-mocha-crust);
   --android-ripple: rgba(17, 17, 27, 0.3);
   --deprecated-card-bg: rgba(17, 17, 27, 0.6);
   --deprecated-card-editable-bg: rgba(17, 17, 27, 0.3);
-  --deprecated-store-bg: var(--md-base);
+  --deprecated-store-bg: var(--md-mocha-base);
   --deprecated-quickswitcher-input-background: #4d4f62;
   --deprecated-quickswitcher-input-placeholder: rgba(17, 17, 27, 0.3);
-  --deprecated-text-input-bg: var(--md-crust);
+  --deprecated-text-input-bg: var(--md-mocha-crust);
   --deprecated-text-input-border: rgba(17, 17, 27, 0.3);
   --deprecated-text-input-border-hover: #07070b;
-  --deprecated-text-input-border-disabled: var(--md-mantle);
-  --deprecated-text-input-prefix: var(--md-subtext0);
-  --focus-primary: var(--md-mauve0);
-  --interactive-normal: var(--md-text);
+  --deprecated-text-input-border-disabled: var(--md-mocha-mantle);
+  --deprecated-text-input-prefix: var(--md-mocha-subtext0);
+  --focus-primary: var(--md-mocha-mauve);
+  --interactive-normal: var(--md-mocha-text);
   --interactive-muted: rgba(205, 214, 244, 0.3);
-  --interactive-hover: var(--md-text);
-  --interactive-active: var(--md-text);
-  --search-popout-option-non-text-color: var(--md-subtext0);
-  --__spoiler-background-color--hidden: var(--md-surface2);
+  --interactive-hover: var(--md-mocha-text);
+  --interactive-active: var(--md-mocha-text);
+  --search-popout-option-non-text-color: var(--md-mocha-subtext0);
+  --__spoiler-background-color--hidden: var(--md-mocha-surface2);
   --__spoiler-warning-background-color: #63677e;
 }
 ::selection {
@@ -290,91 +369,91 @@ html {
 }
 .theme-dark svg[class*="noItemsIcon_"],
 .theme-light svg[class*="noItemsIcon_"] {
-  background-color: var(--md-surface1);
+  background-color: var(--md-mocha-surface1);
 }
 .theme-dark svg[class*="tier1ProfilePerk_"],
 .theme-light svg[class*="tier1ProfilePerk_"] {
-  color: var(--md-blue0) !important;
+  color: var(--md-mocha-blue) !important;
 }
 .theme-dark svg[class*="tier1BoostPerk_"],
 .theme-light svg[class*="tier1BoostPerk_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="tier1CustomEmojiPerk_"],
 .theme-light svg[class*="tier1CustomEmojiPerk_"] {
-  color: var(--md-yellow) !important;
+  color: var(--md-mocha-yellow) !important;
 }
 .theme-dark svg[class*="tier1UploadPerk_"],
 .theme-light svg[class*="tier1UploadPerk_"] {
-  color: var(--md-lavender) !important;
+  color: var(--md-mocha-lavender) !important;
 }
 .theme-dark svg[class*="tier1StreamPerk_"],
 .theme-light svg[class*="tier1StreamPerk_"] {
-  color: var(--md-green) !important;
+  color: var(--md-mocha-green) !important;
 }
 .theme-dark svg[class*="guildBoostingIcon_"],
 .theme-light svg[class*="guildBoostingIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="guildSubscriptionSlotIcon_"],
 .theme-light svg[class*="guildSubscriptionSlotIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="guildSubscriberCountIcon_"],
 .theme-light svg[class*="guildSubscriberCountIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="gemWithLabel_"],
 .theme-light svg[class*="gemWithLabel_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="gemWithoutLabel_"],
 .theme-light svg[class*="gemWithoutLabel_"] {
-  color: var(--md-overlay1) !important;
+  color: var(--md-mocha-overlay1) !important;
 }
 .theme-dark svg[class*="memberBadgeIcon_"],
 .theme-light svg[class*="memberBadgeIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="audioQualityIcon_"],
 .theme-light svg[class*="audioQualityIcon_"] {
-  color: var(--md-sapphire) !important;
+  color: var(--md-mocha-sapphire) !important;
 }
 .theme-dark svg[class*="uploadSizeIcon_"],
 .theme-light svg[class*="uploadSizeIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="threadIcon_"],
 .theme-light svg[class*="threadIcon_"] {
-  color: var(--md-teal) !important;
+  color: var(--md-mocha-teal) !important;
 }
 .theme-dark svg[class*="premiumIcon_"],
 .theme-light svg[class*="premiumIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="gameIcon_"],
 .theme-light svg[class*="gameIcon_"] {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 .theme-dark svg[class*="tierMarkerLabelPlusIcon_"],
 .theme-light svg[class*="tierMarkerLabelPlusIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="currentTierIcon_"],
 .theme-light svg[class*="currentTierIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="tier3Icon_"],
 .theme-light svg[class*="tier3Icon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 .theme-dark svg[class*="searchIcon_"],
 .theme-light svg[class*="searchIcon_"] {
-  color: var(--md-subtext0) !important;
+  color: var(--md-mocha-subtext0) !important;
 }
 .theme-dark svg[class*="upsellIcon_"],
 .theme-light svg[class*="upsellIcon_"] {
-  color: var(--md-pink) !important;
+  color: var(--md-mocha-pink) !important;
 }
 [class*="lookFilled_"][class*="colorBrand_"],
 [class*="lookFilled_"][class*="colorBrandNew_"],
@@ -382,7 +461,7 @@ html {
 [class*="lookFilled_"][class*="colorYellow_"],
 [class*="lookFilled_"][class*="colorRed_"],
 [class*="lookFilled_"][class*="colorGreen_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class*="lookFilled_"][class*="colorBrand_"] svg[class^="premiumIcon"],
 [class*="lookFilled_"][class*="colorBrandNew_"] svg[class^="premiumIcon"],
@@ -398,7 +477,7 @@ html {
 [class*="lookFilled_"][class*="colorYellow_"] [class*="spinnerItem_"],
 [class*="lookFilled_"][class*="colorRed_"] [class*="spinnerItem_"],
 [class*="lookFilled_"][class*="colorGreen_"] [class*="spinnerItem_"] {
-  background-color: var(--md-crust);
+  background-color: var(--md-mocha-crust);
 }
 [class*="lookFilled_"][class*="colorBrand_"] [class*="defaultColor_"],
 [class*="lookFilled_"][class*="colorBrandNew_"] [class*="defaultColor_"],
@@ -406,33 +485,33 @@ html {
 [class*="lookFilled_"][class*="colorYellow_"] [class*="defaultColor_"],
 [class*="lookFilled_"][class*="colorRed_"] [class*="defaultColor_"],
 [class*="lookFilled_"][class*="colorGreen_"] [class*="defaultColor_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class*="lookFilled_"][class*="colorPrimary_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 button[class*="lookFilled_"][class*="colorRed_"]:active {
-  background-color: var(--md-red);
+  background-color: var(--md-mocha-red);
 }
 [class*="lookOutlined_"][class*="colorPrimary_"] {
-  border-color: var(--md-surface1);
+  border-color: var(--md-mocha-surface1);
 }
 [class*="lookOutlined_"][class*="colorPrimary_"]:hover {
-  background-color: var(--md-surface0);
-  color: var(--md-text);
-  border-color: var(--md-surface1);
+  background-color: var(--md-mocha-surface0);
+  color: var(--md-mocha-text);
+  border-color: var(--md-mocha-surface1);
 }
 div[class^="actionButtons"] [class^="button"][class*="buttonColor_"],
 div[class^="actionButtons"] [class^="button"] [class*="buttonColor_"] {
-  background-color: var(--md-surface1);
+  background-color: var(--md-mocha-surface1);
 }
 div[class^="actionButtons"]
   [class^="button"][class*="buttonColor_"][class*="buttonActive_"],
 div[class^="actionButtons"]
   [class^="button"]
   [class*="buttonColor_"][class*="buttonActive_"] {
-  background-color: var(--md-green);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-green);
+  color: var(--md-mocha-crust);
 }
 div[class^="actionButtons"]
   [class^="button"][class*="buttonColor_"][class*="buttonActive_"]
@@ -441,7 +520,7 @@ div[class^="actionButtons"]
   [class^="button"]
   [class*="buttonColor_"][class*="buttonActive_"]
   [class*="buttonContents_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="actionButtons"]
   [class^="button"][class*="buttonColor_"][class*="buttonActive_"]
@@ -452,7 +531,7 @@ div[class^="actionButtons"]
   [class*="buttonColor_"][class*="buttonActive_"]
   [class*="buttonContents_"]
   svg {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class*="lookInverted_"][class*="colorBrand_"] {
   color: var(--brand-experiment-600);
@@ -462,29 +541,29 @@ div[class^="actionButtons"]
 }
 .theme-dark [class*="lookLink_"][class*="colorPrimary_"],
 .theme-light [class*="lookLink_"][class*="colorPrimary_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 .theme-dark [class*="lookFilled_"][class*="colorTransparent_"],
 .theme-light [class*="lookFilled_"][class*="colorTransparent_"] {
-  color: var(--md-text);
-  background-color: var(--md-surface0);
+  color: var(--md-mocha-text);
+  background-color: var(--md-mocha-surface0);
 }
 div[class*="button_"][class*="dangerous_"]:hover {
   color: #ee5d85;
 }
 div[role="radio"][class*="selected"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[role="radio"][class*="selected"][class*="allow"] {
-  background-color: var(--md-green);
+  background-color: var(--md-mocha-green);
 }
 [class*="container_"][style*="background_color: var(__green_360)"] {
-  --green-360: var(--md-green);
-  background-color: var(--md-green) !important;
+  --green-360: var(--md-mocha-green);
+  background-color: var(--md-mocha-green) !important;
 }
 [class*="container_"][style*="background_color: var(__primary_400)"],
 [class*="container_"][style*="background_color: rgb(130, 133, 143)"] {
-  background-color: var(--md-crust) !important;
+  background-color: var(--md-mocha-crust) !important;
 }
 .vc-spotify-button-row .vc-spotify-button.vc-spotify-shuffle-on,
 .vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-context,
@@ -496,121 +575,121 @@ div[role="radio"][class*="selected"][class*="allow"] {
   color: var(--text-muted);
 }
 [class*="topGuildEmojiBadge_"] {
-  background: linear-gradient(268.26deg, var(--md-peach), var(--md-red) 102.45%);
+  background: linear-gradient(268.26deg, var(--md-mocha-peach), var(--md-mocha-red) 102.45%);
 }
 [class*="topGuildEmojiBadge_"] * {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 [class*="newlyAddedBadge_"] {
-  background: linear-gradient(268.26deg, var(--md-teal), var(--md-green) 102.45%);
+  background: linear-gradient(268.26deg, var(--md-mocha-teal), var(--md-mocha-green) 102.45%);
 }
 [class*="newlyAddedBadge_"] * {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 [class*="lookFilled_"]
   [class*="premiumSubscribeButton_"]
   > [class*="premiumIcon_"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="layerContainer"] button[class^="backButton"][class*="lookBlank"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"]
   svg[class^="icon"] {
-  fill: var(--md-pink) !important;
+  fill: var(--md-mocha-pink) !important;
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"][class*="selected_"] {
-  background-color: var(--md-mauve0) !important;
-  color: var(--md-crust) !important;
+  background-color: var(--md-mocha-mauve) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"][class*="selected_"]
   svg[class^="icon"] {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="sidebarRegion"] div[class^="premiumTab"] > div > svg > path {
-  fill: var(--md-pink);
+  fill: var(--md-mocha-pink);
 }
 div[class^="sidebarRegion"] div[class^="premiumTab"] > div[class*="selected"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="sidebarRegion"]
   div[class^="premiumTab"]
   > div[class*="selected"]
   svg
   > path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="sidebarRegion"]
   div[class*="tabBarItemContainer_"]
   [class*="textBadge_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="sidebarRegion"]
   div[class*="tabBarItemContainer_"]
   [class*="textBadge_"][style*="background-color: var(--brand-500);"] {
-  background-color: var(--md-mauve0) !important;
+  background-color: var(--md-mocha-mauve) !important;
 }
 div[class^="contentRegion"]
   div[class*="noticeRegion_"]
   div[style="background_color: rgb(24, 25, 28);"] {
-  background-color: var(--md-crust) !important;
+  background-color: var(--md-mocha-crust) !important;
 }
 div[class^="contentRegion"] div[class^="streamerModeEnabledBtn"] {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] [class^="bar"] :not(div[class^="barFill"]),
 div[class^="contentRegion"] [class^="markDash"] {
-  background: var(--md-surface1);
+  background: var(--md-mocha-surface1);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class^="radioBar"][style*="hsl(139,"] {
-  border-color: var(--md-green);
+  border-color: var(--md-mocha-green);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class^="radioBar"][style*="hsl(37,"] {
-  border-color: var(--md-yellow);
+  border-color: var(--md-mocha-yellow);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class^="radioBar"][style*="hsl(359,"] {
-  border-color: var(--md-red);
+  border-color: var(--md-mocha-red);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class*="betaTagIcon"] {
-  background-color: var(--md-mauve0) !important;
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve) !important;
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] #accessibility-tab button[class*="colorBrandNew"] {
-  background-color: var(--md-mauve0);
+  background-color: var(--md-mocha-mauve);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
   circle[class^="circleProgress"] {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
   div[class*="gemIndicatorContainer_"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
   div[class*="gemIndicatorContainer_"]
   div[class^="tierLabel"] {
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
   button[class*="lookInverted_"] {
-  color: var(--md-crust);
-  background-color: var(--md-text);
+  color: var(--md-mocha-crust);
+  background-color: var(--md-mocha-text);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
@@ -619,47 +698,47 @@ div[class^="contentRegion"]
 }
 div[class^="contentRegion"] #nitro-server-boost-tab div[class*="card_"],
 div[class^="contentRegion"] #nitro-server-boost-tab h3[class*="price_"] {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class^="contentRegion"] #keybinds-tab span[class*="key"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] #keybinds-tab span[class*="key"] g {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] #subscriptions-tab [class^="sectionAccountCredit"],
 div[class^="contentRegion"] #subscriptions-tab [class^="subscriptionDetails"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #library-inventory-tab div[class^="promotionIcon"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="buttonWhite"] {
-  color: var(--md-text) !important;
-  border-color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
+  border-color: var(--md-mocha-text) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab h2 {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab svg[class*="sparkleStar_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="description_"] {
-  color: var(--md-subtext1) !important;
+  color: var(--md-mocha-subtext1) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="card_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
   div[class*="card_"]
   div[class^="item"]
   div {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="lookInverted_"] {
-  color: var(--md-crust);
-  background-color: var(--md-text);
+  color: var(--md-mocha-crust);
+  background-color: var(--md-mocha-text);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
@@ -667,55 +746,55 @@ div[class^="contentRegion"]
   background-color: #cfd8f4;
 }
 div[class^="contentRegion"] #billing-tab div[class*="subtext"] {
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 div[class^="contentRegion"] #billing-tab [class*="Divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="defaultIndicator"] {
-  color: var(--md-text);
-  background-color: var(--md-surface1);
+  color: var(--md-mocha-text);
+  background-color: var(--md-mocha-surface1);
 }
 div[class^="contentRegion"] #billing-tab div[class*="summaryInfo"],
 div[class^="contentRegion"] #billing-tab [class^="paymentHeader"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="premiumIndicator"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] #billing-tab div[class^="paymentPane"],
 div[class^="contentRegion"] #billing-tab div[class*="paginator_"],
 div[class^="contentRegion"] #billing-tab div[class*="payment_"] {
-  background-color: var(--md-surface0);
-  color: var(--md-text);
+  background-color: var(--md-mocha-surface0);
+  color: var(--md-mocha-text);
 }
 div[class^="contentRegion"] #billing-tab div[class^="expandedInfo"] {
-  background-color: var(--md-surface1);
+  background-color: var(--md-mocha-surface1);
 }
 div[class^="contentRegion"] #billing-tab [class*="paymentText_"] {
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 div[class^="contentRegion"] #billing-tab div[class^="codeRedemptionRedirect"] {
-  background-color: var(--md-mantle);
-  color: var(--md-text);
-  border-color: var(--md-surface0);
+  background-color: var(--md-mocha-mantle);
+  color: var(--md-mocha-text);
+  border-color: var(--md-mocha-surface0);
 }
 div[class^="contentRegion"]
   [id="voice-&-video-tab"]
   div[class^="backgroundOptionRing"] {
-  border-color: var(--md-mauve0);
+  border-color: var(--md-mocha-mauve);
 }
 div[class^="contentRegion"]
   [id="voice-&-video-tab"]
   div[class^="micTest"]
   svg[class^="notches"] {
-  color: var(--md-base);
+  color: var(--md-mocha-base);
 }
 div[class^="contentRegion"]
   #notifications-tab
   button[class*="marketingUnsubscribeButton_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="nowPlayingAdd_"],
 div[class^="contentRegion"] #game-activity-tab div[class*="lastPlayed_"],
@@ -728,7 +807,7 @@ div[class^="contentRegion"]
   #game-activity-tab
   div[class*="activeGame_"][class*="nowPlaying"]
   * {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"]
   #game-activity-tab
@@ -736,10 +815,10 @@ div[class^="contentRegion"]
   *
   svg
   > path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="contentRegion"] #game-activity-tab input[class^="gameName"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="contentRegion"]
   #game-activity-tab
@@ -747,32 +826,32 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #game-activity-tab
   input[class*="gameNameInput_"]:focus {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
   border-color: rgba(24, 24, 37, 0.3);
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="game_"] {
   -webkit-box-shadow: 0 1px 0 0 var(--background-modifier-accent);
   box-shadow: 0 1px 0 0 var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="removeGame_"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class^="contentRegion"] #emoji-tab div[class*="emojiRemove_"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class^="contentRegion"]
   section[class^="inputSensitivityToggle"]
   div[class^="inputSensitivityBar"] {
-  background: var(--md-surface1);
+  background: var(--md-mocha-surface1);
 }
 div[class^="contentRegion"]
   section[class^="inputSensitivityToggle"]
   div[class^="inputSensitivityBar"][class*="speaking_"] {
-  background: var(--md-green) !important;
+  background: var(--md-mocha-green) !important;
 }
 div[class^="contentRegion"] div[class*="reactionMe_"] {
-  background-color: var(--md-surface0) !important;
+  background-color: var(--md-mocha-surface0) !important;
 }
 div[class^="contentRegion"]
   div[class^="switch"]
@@ -786,22 +865,22 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   div[class^="control"]
   > div[style*="background-color: "] {
-  background-color: var(--md-surface2) !important;
+  background-color: var(--md-mocha-surface2) !important;
 }
 div[class^="contentRegion"] div[class^="switch"] > div[class*="checked_"],
 div[class^="contentRegion"] div[class^="control"] > div[class*="checked_"],
 div[class^="contentRegion"] div[class^="sensitivity"] div[class*="checked_"],
 div[class^="contentRegion"]
   div[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
-  background-color: var(--md-green) !important;
+  background-color: var(--md-mocha-green) !important;
 }
 div[class^="contentRegion"] #guild_premium-tab [class*="tierAccomplished_"],
 div[class^="contentRegion"] #guild_premium-tab [class*="tierCurrent_"],
 div[class^="contentRegion"] #guild_premium-tab [class*="tierFirst_"] {
-  background: var(--md-pink);
+  background: var(--md-mocha-pink);
 }
 div[class^="contentRegion"] #guild_premium-tab [class*="tierInProgress_"] {
-  background-color: var(--md-crust);
+  background-color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"]
   #guild_premium-tab
@@ -809,7 +888,7 @@ div[class^="contentRegion"]
   > svg
   > g
   > rect:first-child {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"]
   #guild_premium-tab
@@ -817,12 +896,12 @@ div[class^="contentRegion"]
   > svg
   > g
   > rect:nth-child(2) {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 div[class^="contentRegion"] #guild_premium-tab div[class^="tierHeaderUnlocked"],
 div[class^="contentRegion"] #guild_premium-tab div[class^="tierHeaderLocked"] {
-  background-color: var(--md-crust);
-  color: var(--md-subtext0);
+  background-color: var(--md-mocha-crust);
+  color: var(--md-mocha-subtext0);
 }
 div[class^="contentRegion"]
   #guild_premium-tab
@@ -832,8 +911,8 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   div[class^="tierUnlocked"] {
-  background-image: linear-gradient(90deg, var(--md-blue0), var(--md-mauve0));
-  color: var(--md-crust);
+  background-image: linear-gradient(90deg, var(--md-mocha-blue), var(--md-mocha-mauve));
+  color: var(--md-mocha-crust);
   font-weight: 600;
 }
 div[class^="contentRegion"]
@@ -844,7 +923,7 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   svg[class^="tierIcon"] {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 div[class^="contentRegion"]
   #guild_premium-tab
@@ -854,7 +933,7 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   svg[class*="tierIconLocked_"] {
-  color: var(--md-overlay1);
+  color: var(--md-mocha-overlay1);
 }
 div[class^="contentRegion"]
   #guild_premium-tab
@@ -864,53 +943,53 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   svg[class^="tierLock"] {
-  color: var(--md-surface2);
+  color: var(--md-mocha-surface2);
 }
 div[class^="contentRegion"] #guild_premium-tab div[class^="tierBody"] {
-  color: var(--md-subtext1);
-  background-color: var(--md-mantle);
+  color: var(--md-mocha-subtext1);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="contentRegion"] svg[class^="activeCircle"] {
-  color: var(--md-crust);
-  background-color: var(--md-green);
+  color: var(--md-mocha-crust);
+  background-color: var(--md-mocha-green);
 }
 div[class^="contentRegion"]
   #discovery-tab
   div[class*="checklistIcon"]
   svg[viewBox="0 0 14 14"]
   path {
-  fill: var(--md-red);
+  fill: var(--md-mocha-red);
 }
 div[class^="contentRegion"]
   #discovery-tab
   div[class*="checklistIcon"]
   svg[viewBox="0 0 20 20"]
   path {
-  fill: var(--md-yellow);
+  fill: var(--md-mocha-yellow);
 }
 div[class^="contentRegion"]
   #guild_templates-tab
   svg[class*="descriptionIcon"][viewBox="0 0 24 24"]
   path {
-  fill: var(--md-green);
+  fill: var(--md-mocha-green);
 }
 div[class^="contentRegion"]
   #guild_templates-tab
   svg[class*="descriptionIcon"][viewBox="0 0 14 14"]
   path {
-  fill: var(--md-red);
+  fill: var(--md-mocha-red);
 }
 div[class^="contentRegion"]
   #guild_templates-tab
   svg[class*="descriptionIcon"]
   circle {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] #stickers-tab div[class*="tierHeaderContent"] {
-  background-color: var(--md-crust);
+  background-color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] #stickers-tab div[class*="tierBody"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="contentRegion"]
   #roles-tab
@@ -928,28 +1007,28 @@ div[class^="contentRegion"]
 }
 #activity-tab div[class^="featureCards"] svg[class^="icon"],
 #family-center-tab div[class^="featureCards"] svg[class^="icon"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"]
   #profile-customization-tab
   div[class*="premiumFeatureBannerBackground"]
   button {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"]
   #profile-customization-tab
   div[class^="imageUploaderIcon_"] {
-  background-color: var(--md-text);
+  background-color: var(--md-mocha-text);
 }
 div[class^="contentRegion"] #appearance-tab div[class^="selectionCircle"] {
-  box-shadow: inset 0 0 0 2px var(--md-blue0), inset 0 0 0 4px var(--background-primary);
+  box-shadow: inset 0 0 0 2px var(--md-mocha-blue), inset 0 0 0 4px var(--background-primary);
 }
 div[class^="contentRegion"]
   #appearance-tab
   div[class^="selectionCircle"]
   svg[class^="checkmarkCircle"]
   > circle {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="contentRegion"]
   #appearance-tab
@@ -957,124 +1036,124 @@ div[class^="contentRegion"]
   svg[class^="checkmarkCircle"]
   > g
   > path {
-  fill: var(--md-blue0) !important;
+  fill: var(--md-mocha-blue) !important;
 }
 .theme-light
   div[class^="contentRegion"]
   #appearance-tab
   div[class^="themeSelection"][class*="lightIcon"] {
-  background: var(--md-surface0);
+  background: var(--md-mocha-surface0);
 }
 div[class^="contentRegion"] #overview-tab div[class^="addTags"] svg path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="contentRegion"] #onboarding-tab div[class*="heroQuotes"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="contentRegion"]
   #onboarding-tab
   svg[class^="checkCircleCompleted"]
   circle {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="contentRegion"] #onboarding-tab svg[class^="checkbox"],
 div[class^="contentRegion"] #onboarding-tab svg[class^="checkmark"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="contentRegion"]
   #onboarding-tab
   div[class^="requiredItem"]
   svg
   circle {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="contentRegion"] #onboarding-tab div[class^="addPrompt"],
 div[class^="contentRegion"] #onboarding-tab div[class^="addActionItem"] {
-  border: 2px dashed var(--md-surface1);
+  border: 2px dashed var(--md-mocha-surface1);
 }
 div[class^="contentRegion"]
   #onboarding-tab
   div[class^="badExample"]
   div[class^="example"] {
-  border: 2px solid var(--md-surface1);
+  border: 2px solid var(--md-mocha-surface1);
 }
 div[class^="contentRegion"]
   #onboarding-tab
   div[class^="homeBannerExplainer"]
   div[class*="upsellButtonInner"]
   div[class^="text-sm-medium"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="contentRegion"] #developer-options-tab kbd {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 .bd-settings-title {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 .bd-switch-body {
-  --switch-color: var(--md-surface2);
+  --switch-color: var(--md-mocha-surface2);
 }
 .bd-switch input:checked + .bd-switch-body {
-  --switch-color: var(--md-green);
+  --switch-color: var(--md-mocha-green);
 }
 .bd-switch input:checked + .bd-switch-body svg.bd-switch-symbol path {
   fill: #328e2a;
 }
 .bd-button {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust);
 }
 .bd-button.bd-button-danger {
-  background-color: var(--md-red);
+  background-color: var(--md-mocha-red);
 }
 .bd-controls > .bd-addon-button svg {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 .bd-addon-views .bd-view-button.selected {
-  background-color: var(--md-mauve0);
+  background-color: var(--md-mocha-mauve);
 }
 .bd-addon-views .bd-view-button.selected svg {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="perksModal"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="perksModal"] li[class^="perk"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="perksModal"] li[class^="perk"] svg {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 div[class^="perksModal"] svg[class^="giftIcon"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="perksModal"] div[class^="tierHeaderUnlocked"] {
-  background-image: linear-gradient(90deg, var(--md-blue0), var(--md-mauve0));
-  color: var(--md-base);
+  background-image: linear-gradient(90deg, var(--md-mocha-blue), var(--md-mocha-mauve));
+  color: var(--md-mocha-base);
 }
 div[class^="perksModal"] div[class^="tierUnlocked"],
 div[class^="perksModal"] div[class^="tierMarkerBackground"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="perksModal"] div[class^="barBackground"],
 div[class^="perksModal"] div[class^="tierMarkerInProgress"],
 div[class^="perksModal"] div[class^="tierBody"] {
-  background-color: var(--md-crust) !important;
+  background-color: var(--md-mocha-crust) !important;
 }
 div[class^="perksModal"] div[class^="tierMarkerAccomplished"] {
-  background: var(--md-pink) !important;
+  background: var(--md-mocha-pink) !important;
 }
 div[class^="perksModal"]
   div[class^="tierMarkerInProgress"]
   [class^="currentTierIcon"] {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 div[class^="perksModal"] div[class^="barForeground"],
 div[class^="perksModal"] div[class^="tierMarkerAccomplished"] {
-  background-color: var(--md-pink);
+  background-color: var(--md-mocha-pink);
 }
 div[class^="perksModal"] svg[class^="currentTierIcon"] {
-  color: var(--md-base);
+  color: var(--md-mocha-base);
 }
 div[class^="perksModal"] div[class*="tierMarkerLabelText"],
 div[class^="perksModal"] svg[class^="tierLock"] {
@@ -1090,18 +1169,18 @@ div[class^="perksModal"] div[class^="tierHeaderLocked"] {
   color: var(--text-muted);
 }
 div[class^="perksModal"] svg[class*="unlocked"] {
-  color: var(--md-green);
+  color: var(--md-mocha-green);
 }
 div[class^="sidebar"] div[class^="container"] div[class^="progressBar"] {
-  background: linear-gradient(90deg, var(--md-blue0), var(--md-mauve0));
+  background: linear-gradient(90deg, var(--md-mocha-blue), var(--md-mocha-mauve));
 }
 div[class^="sidebar"] div[class^="container"]:hover div[class^="progressBar"] {
   background: linear-gradient(
     90deg,
-    var(--md-blue0),
-    var(--md-mauve0) 34%,
-    var(--md-blue0) 67%,
-    var(--md-mauve0)
+    var(--md-mocha-blue),
+    var(--md-mocha-mauve) 34%,
+    var(--md-mocha-blue) 67%,
+    var(--md-mocha-mauve)
   );
   background-size: 300% 100%;
 }
@@ -1109,10 +1188,10 @@ div[class^="sidebar"] div[class^="container"] div[class^="divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="pageWrapper"] {
-  background: var(--md-base) !important;
+  background: var(--md-mocha-base) !important;
 }
 div[class^="pageWrapper"] div[class*="searchBox_"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="pageWrapper"]
   div[class*="searchBox_"]
@@ -1123,45 +1202,45 @@ div[class^="pageWrapper"]
   div[class*="searchBox_"]
   svg[class*="clearIcon"]
   path {
-  fill: var(--md-overlay0);
+  fill: var(--md-mocha-overlay0);
 }
 div[class^="pageWrapper"] div[class*="categoryPill_"][class*="selected_"] div {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="homeContainer"] {
-  background: var(--md-base) !important;
+  background: var(--md-mocha-base) !important;
 }
 div[class^="homeContainer"] > div[class^="homeContent"] div[class*="card_"] {
-  background: var(--md-surface0) !important;
+  background: var(--md-mocha-surface0) !important;
 }
 section[class^="title"] {
   background: var(--background-primary) !important;
 }
 div[class^="categoryItem"][class*="selectedCategoryItem"],
 button[class*="lookFilled"] div[class*="addButton"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="itemInner"] div[class^="new"] > div[class*="newText_"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class*="directoryModal_"] {
-  background-color: var(--md-base) !important;
+  background-color: var(--md-mocha-base) !important;
 }
 div[class*="directoryModal_"] [class*="searchBox"] {
-  background-color: var(--md-mantle) !important;
+  background-color: var(--md-mocha-mantle) !important;
 }
 div[class*="directoryModal_"]
   [class*="searchBox"]
   [name="search"]::placeholder {
-  color: var(--md-subtext0);
+  color: var(--md-mocha-subtext0);
 }
 div[class*="directoryModal_"] [role="button"][class*="activeButton"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 section[class^="guildListSection"]
   div[class^="guildList"]:first-child
   div[class^="iconContainer"] {
-  background-color: var(--md-green);
+  background-color: var(--md-mocha-green);
 }
 section[class^="guildListSection"]
   div[class^="guildList"]:first-child
@@ -1170,46 +1249,46 @@ section[class^="guildListSection"]
   background-image: url("data:image/svg+xml,%3Csvg fill='none' height='24' viewBox='0 0 25 24' width='25' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2311111b'%3E%3Cpath clip-rule='evenodd' d='m13.25 18v-12h-1.5v12z' fill-rule='evenodd'/%3E%3Cpath clip-rule='evenodd' d='m7 12.75c-.69036 0-1.25.5596-1.25 1.25v4h-1.5v-4c0-1.5188 1.23122-2.75 2.75-2.75h11c1.5188 0 2.75 1.2312 2.75 2.75v4h-1.5v-4c0-.6904-.5596-1.25-1.25-1.25z' fill-rule='evenodd'/%3E%3Cpath d='m12.5 7c-1.3807 0-2.5-1.11929-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.11929 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m20 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m12.5 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m5 22c-1.38071 0-2.5-1.1193-2.5-2.5s1.11929-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.11929 2.5-2.5 2.5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 path[d="M22 12.4065C21.8956 14.9141 20.8533 17.2908 19.0798 19.0654C17.3062 20.8401 14.931 21.883 12.425 21.9875L13.7625 15.646L17.2375 17.9224C17.3214 17.9702 17.416 17.996 17.5125 17.9975C17.6481 17.9962 17.7781 17.9424 17.875 17.8474C17.9439 17.7577 17.9813 17.6478 17.9813 17.5347C17.9813 17.4216 17.9439 17.3117 17.875 17.222L15.6 13.7323L22 12.4065ZM13.7625 8.34148L17.2375 6.06504C17.3352 6.00866 17.4487 5.98608 17.5605 6.00084C17.6723 6.0156 17.7762 6.06686 17.8559 6.14665C17.9357 6.22645 17.9869 6.33037 18.0017 6.44225C18.0164 6.55413 17.9938 6.66772 17.9375 6.76548L15.6625 10.2551L22 11.581C21.8956 9.07342 20.8533 6.69669 19.0798 4.92206C17.3062 3.14742 14.931 2.10449 12.425 2L13.7625 8.34148ZM10.275 8.34148L11.6 2C9.09402 2.10449 6.71878 3.14742 4.94525 4.92206C3.17172 6.69669 2.12945 9.07342 2.02502 11.581L8.37497 10.2551L6.08752 6.76548C6.02873 6.66774 6.00413 6.55315 6.01772 6.43988C6.0313 6.32661 6.08228 6.22113 6.16252 6.14009C6.24233 6.05781 6.34797 6.00542 6.46175 5.99176C6.57552 5.97809 6.69052 6.00399 6.78752 6.06504L10.275 8.34148ZM6.16252 17.8474C6.08228 17.7663 6.0313 17.6609 6.01772 17.5476C6.00413 17.4343 6.02873 17.3197 6.08752 17.222L8.37497 13.7323L2 12.4065C2.10442 14.9141 3.1467 17.2908 4.92023 19.0654C6.69376 20.8401 9.06899 21.883 11.575 21.9875L10.25 15.646L6.7625 17.9224C6.67925 17.9718 6.58428 17.9977 6.48753 17.9975C6.35971 17.9937 6.23848 17.9398 6.15001 17.8474H6.16252Z"] {
-  fill: var(--md-teal);
+  fill: var(--md-mocha-teal);
 }
 path[d="M17.225 6.06504C17.3227 6.00866 17.4362 5.98608 17.548 6.00084C17.6598 6.0156 17.7637 6.06686 17.8434 6.14665C17.9232 6.22645 17.9744 6.33037 17.9892 6.44225C18.0039 6.55413 17.9813 6.66772 17.925 6.76548L15.65 10.2551L21.9875 11.581C21.9875 11.7185 21.9875 11.8562 21.9875 11.9937C21.9875 12.1313 21.9875 12.2689 21.9875 12.4065L15.65 13.7323L17.925 17.222C17.9939 17.3117 18.0313 17.4216 18.0313 17.5347C18.0313 17.6478 17.9939 17.7577 17.925 17.8474C17.8281 17.9424 17.6982 17.9962 17.5625 17.9975C17.466 17.996 17.3714 17.9702 17.2875 17.9224L13.8125 15.646L12.4125 22H11.5875L10.2625 15.6585L6.77501 17.935C6.69176 17.9843 6.59672 18.0102 6.49997 18.01C6.43455 18.0098 6.3699 17.9963 6.30977 17.9705C6.24964 17.9447 6.1953 17.9072 6.15001 17.8599C6.06977 17.7789 6.01879 17.6734 6.0052 17.5601C5.99162 17.4468 6.01621 17.3323 6.07501 17.2345L8.36253 13.7449L2 12.4065C2 12.2689 2 12.1313 2 11.9937C2 11.8562 2 11.7185 2 11.581L8.35002 10.2551L6.0625 6.76548C6.0037 6.66774 5.97918 6.55315 5.99277 6.43988C6.00635 6.32661 6.05726 6.22113 6.1375 6.14009C6.21731 6.05781 6.32295 6.00542 6.43672 5.99176C6.5505 5.97809 6.6655 6.00399 6.7625 6.06504L10.25 8.34148L11.575 2H12.4L13.7375 8.34148L17.225 6.06504Z"] {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="tierPreviews"] button[class^="button"] {
-  background: linear-gradient(90deg, var(--md-teal), var(--md-blue0));
+  background: linear-gradient(90deg, var(--md-mocha-teal), var(--md-mocha-blue));
 }
 div[class^="notice"] div[class*="noticeText_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="notice"] div[class*="header_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="notice"] div[class^="closeButton"] > svg > path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="notice"] button[class^="button"] {
-  border-color: var(--md-crust);
-  color: var(--md-crust);
+  border-color: var(--md-mocha-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="notice"] button[class^="button"]:hover {
   background: #b077f3;
 }
 div[class^="notice"][class*="colorStreamerMode_"] {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust);
 }
 div[class^="notice"][class*="colorStreamerMode_"]
   button[class^="button"]:hover {
   background: #b077f3;
-  color: var(--md-mantle);
+  color: var(--md-mocha-mantle);
 }
 div[class^="standardSidebarView"]
   div[class^="noticeRegion"]
   div[class^="actions"]
   button {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust) !important;
-  border-color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust) !important;
+  border-color: var(--md-mocha-crust);
 }
 div[class^="standardSidebarView"]
   div[class^="noticeRegion"]
@@ -1221,7 +1300,7 @@ div[class^="standardSidebarView"]
   div[class^="actions"]
   button
   div {
-  --button--underline-color: var(--md-crust) !important;
+  --button--underline-color: var(--md-mocha-crust) !important;
 }
 div[class^="standardSidebarView"]
   div[class^="noticeRegion"]
@@ -1235,7 +1314,7 @@ div[class^="standardSidebarView"]
   button
   div
   span {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="standardSidebarView"]
   div[class^="noticeRegion"]
@@ -1244,8 +1323,8 @@ div[class^="standardSidebarView"]
   background-color: #b077f3;
 }
 div[class^="premiumFeatureBorder"] {
-  background: linear-gradient(#11111b, var(--md-crust)) padding-box,
-    linear-gradient(45deg, var(--md-mauve0), var(--md-pink)) border-box;
+  background: linear-gradient(#11111b, var(--md-mocha-crust)) padding-box,
+    linear-gradient(45deg, var(--md-mocha-mauve), var(--md-mocha-pink)) border-box;
 }
 div[class^="premiumFeatureBorder"] div[class^="premiumBackground"] {
   background: linear-gradient(
@@ -1260,14 +1339,14 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   svg
   g {
-  fill: var(--md-text);
+  fill: var(--md-mocha-text);
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
   div[class^="premiumCards"]
   div[class*="item"]
   div[class^="text"] {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -1278,13 +1357,13 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   h2
   span {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
   div[class^="premiumCards"]
   span[class^="buttonText"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -1296,7 +1375,7 @@ div[class*="applicationStore"]
   div[class^="innerWrapper"]
   div[class*="premiumSubscribeButton"]
   span[class^="buttonText"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="shop"]
   div[class^="heroBanner"]
@@ -1306,14 +1385,14 @@ div[class^="shop"]
   div[class^="heroBanner"]
   div[class^="heroDescription"]
   div[class^="text"] {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class^="shop"]
   div[class^="heroBanner"]
   div[class^="heroDescription"]
   div[class*="premiumSubscribeButton"]
   span[class^="buttonText"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="shop"]
   div[class^="shopCard"]
@@ -1321,22 +1400,22 @@ div[class^="shop"]
   button[class^="previewButton"]
   svg
   path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="shop"] div[class^="bannerCard"] div[class^="badge"] svg path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   div[class^="collectibleInfoContainer"]
   button[class^="shinyButton"]
   svg {
-  fill: var(--md-pink);
+  fill: var(--md-mocha-pink);
 }
 div[class^="layerContainer"]
   div[class^="collectibleInfoContainer"]
   button[class^="shinyButton"]
   span {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="auditLog"] div[class^="headerClickable"] {
   background-color: rgba(17, 17, 27, 0.3) !important;
@@ -1349,7 +1428,7 @@ nav[class*="guilds_"]
   foreignObject
   > div[data-list-item-id*="guildsnav_"][class*="selected"]
   > div[class^="childWrapper"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
   font-weight: 600;
 }
 nav[class*="guilds_"] div[data-list-item-id="guildsnav___home"] {
@@ -1373,75 +1452,75 @@ nav[class*="guilds_"]
   div[data-list-item-id="guildsnav___app-download-button"]:hover,
 nav[class*="guilds_"]
   div[data-list-item-id="guildsnav___app-download-button"][class*="selected"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
   font-weight: 600;
 }
 div[class^="upperBadge"] > div[class^="iconBadge"] path {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="upperBadge"] div[class*="participating_"] {
-  background: var(--md-green);
+  background: var(--md-mocha-green);
 }
 div[class^="lowerBadge"] div[class^="iconBadge"] path {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 svg[class^="spine"] {
-  color: var(--md-surface2);
+  color: var(--md-mocha-surface2);
 }
 div[class^="spineBorder"] {
-  background: var(--md-surface2);
+  background: var(--md-mocha-surface2);
 }
 ul[aria-label$=" threads"] > li:nth-child(1n) {
   --channels-default: #d8c0dd;
-  --interactive-hover: var(--md-red);
-  --interactive-active: var(--md-red);
+  --interactive-hover: var(--md-mocha-red);
+  --interactive-active: var(--md-mocha-red);
 }
 ul[aria-label$=" threads"] > li:nth-child(2n) {
   --channels-default: #dbccd3;
-  --interactive-hover: var(--md-peach);
-  --interactive-active: var(--md-peach);
+  --interactive-hover: var(--md-mocha-peach);
+  --interactive-active: var(--md-mocha-peach);
 }
 ul[aria-label$=" threads"] > li:nth-child(3n) {
   --channels-default: #dadadf;
-  --interactive-hover: var(--md-yellow);
-  --interactive-active: var(--md-yellow);
+  --interactive-hover: var(--md-mocha-yellow);
+  --interactive-active: var(--md-mocha-yellow);
 }
 ul[aria-label$=" threads"] > li:nth-child(4n) {
   --channels-default: #c1dadb;
-  --interactive-hover: var(--md-green);
-  --interactive-active: var(--md-green);
+  --interactive-hover: var(--md-mocha-green);
+  --interactive-active: var(--md-mocha-green);
 }
 ul[aria-label$=" threads"] > li:nth-child(5n) {
   --channels-default: #b9ccf6;
-  --interactive-hover: var(--md-sapphire);
-  --interactive-active: var(--md-sapphire);
+  --interactive-hover: var(--md-mocha-sapphire);
+  --interactive-active: var(--md-mocha-sapphire);
 }
 ul[aria-label$=" threads"] > li:nth-child(6n) {
   --channels-default: #ccc8f5;
-  --interactive-hover: var(--md-mauve0);
-  --interactive-active: var(--md-mauve0);
+  --interactive-hover: var(--md-mocha-mauve);
+  --interactive-active: var(--md-mocha-mauve);
 }
 [class*="botText_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
   font-weight: 600;
 }
 svg[class*="botTagVerified_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class*="activePostCount_"] {
-  background-color: var(--md-surface0);
-  color: var(--md-text) !important;
+  background-color: var(--md-mocha-surface0);
+  color: var(--md-mocha-text) !important;
 }
 div[class*="newPostCount_"] {
-  background-color: var(--md-text);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-text);
+  color: var(--md-mocha-crust);
 }
 div[class*="liveSmall_"] {
-  background-color: var(--md-red) !important;
-  color: var(--md-crust);
+  background-color: var(--md-mocha-red) !important;
+  color: var(--md-mocha-crust);
 }
 div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
-  fill: var(--md-green) !important;
+  fill: var(--md-mocha-green) !important;
 }
 [class^="chatContent"] div[class*="wrapperAudio_"] div[class*="audioControls"],
 [class^="chatContent"] div[class*="wrapperAudio_"] div[class*="videoControls_"],
@@ -1468,13 +1547,13 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   div[class*="videoControls_"]
   svg[class*="controlIcon_"] {
   opacity: 1;
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 [class^="chatContent"] #---new-messages-bar span[class^="unreadPill"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class^="chatContent"] div[class^="newMessagesBar"] button {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class^="chatContent"] div[class^="channelTextArea"] div[class^="buttons"] * {
   color: var(--interactive-normal) !important;
@@ -1492,34 +1571,34 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   border-radius: 0.4rem;
 }
 [class^="chatContent"] div[class*="isBurstReactionPicker_"] {
-  box-shadow: 0 0 0 2px var(--md-mauve0), 0 0 16px var(--md-lavender);
+  box-shadow: 0 0 0 2px var(--md-mocha-mauve), 0 0 16px var(--md-mocha-lavender);
 }
 [class^="chatContent"] div[class^="navButtonSuperReactActive"],
 [class^="chatContent"] div[class^="navButtonSuperReactActive"]:hover {
-  background: linear-gradient(270deg, var(--md-pink), var(--md-lavender) 33.63%, var(--md-mauve0));
-  color: var(--md-crust);
+  background: linear-gradient(270deg, var(--md-mocha-pink), var(--md-mocha-lavender) 33.63%, var(--md-mocha-mauve));
+  color: var(--md-mocha-crust);
 }
 [class^="chatContent"] div[class*="betaTag_"] {
   background: var(--brand-experiment) !important;
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class^="chatContent"] button[class*="navButtonActive_"],
 [class^="chatContent"] button[class*="navButtonActive_"]:hover {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class^="chatContent"] div[class*="colorPremiumGradient_"][class*="focused_"] {
-  background: linear-gradient(270deg, var(--md-pink), var(--md-lavender) 33.63%, var(--md-mauve0));
-  color: var(--md-crust) !important;
+  background: linear-gradient(270deg, var(--md-mocha-pink), var(--md-mocha-lavender) 33.63%, var(--md-mocha-mauve));
+  color: var(--md-mocha-crust) !important;
 }
 [class^="chatContent"] div[class*="isBurstReactionPicker"] {
   border: none;
-  box-shadow: 0 0 0 2px var(--md-mauve0), 0 0 16px var(--md-lavender);
+  box-shadow: 0 0 0 2px var(--md-mocha-mauve), 0 0 16px var(--md-mocha-lavender);
 }
 [class^="chatContent"] div[class*="playButtonContainer_"] {
   background: var(--brand-experiment) !important;
 }
 [class^="chatContent"] svg[class*="playIcon_"] path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 [class^="chatContent"]
   div[class^="container"][class*="header_"]
@@ -1528,7 +1607,7 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   div[class^="container"][class*="header_"]
   div[class^="buttons"]:not([class*="lookBlank_"])
   div[class^="contents"] {
-  background: var(--md-surface0);
+  background: var(--md-mocha-surface0);
 }
 [class^="chatContent"]
   div[class^="container"][class*="header_"]
@@ -1543,21 +1622,21 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
 [class^="chatContent"]
   div[class^="messagesErrorBar"]
   div[class*="barButtonBase_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class^="chatContent"] [class*="inlineCode_"] {
-  background: var(--md-surface0);
+  background: var(--md-mocha-surface0);
 }
 [class^="chatContent"] code.inline {
-  background: var(--md-surface0);
+  background: var(--md-mocha-surface0);
 }
 [class^="chatContent"]
   div[class^="container"]
   div[class^="cardWrapper"]
   div[class*="completed_"]
   svg[class^="checkmark"] {
-  background-color: var(--md-green);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-green);
+  color: var(--md-mocha-crust);
 }
 div[style*="d1382af8d9e755bc44811b1fd92990a8.svg"] {
   background-image: url("data:image/svg+xml,%3Csvg height='18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m18 0h-18v18h18z'/%3E%3Cpath d='m0 8h14.2l-3.6-3.6 1.4-1.4 6 6-6 6-1.4-1.4 3.6-3.6h-14.2' fill='%23a6e3a1'/%3E%3C/g%3E%3C/svg%3E") !important;
@@ -1571,19 +1650,19 @@ main[class^="chatContent"]
   div[id^="message-content"]
   svg[class^="icon"]
   > path[d="M2 4.83V7.17L4 9.17L6 7.17V4.83L4 2.83L2 4.83Z"] {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 .theme-dark span[class^="spoilerContent"],
 .theme-dark div[class^="spoilerContent"],
 .theme-light span[class^="spoilerContent"],
 .theme-light div[class^="spoilerContent"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 .theme-dark span[class^="spoilerContent"][class*="hidden"],
 .theme-dark div[class^="spoilerContent"][class*="hidden"],
 .theme-light span[class^="spoilerContent"][class*="hidden"],
 .theme-light div[class^="spoilerContent"][class*="hidden"] {
-  background-color: var(--md-surface2);
+  background-color: var(--md-mocha-surface2);
 }
 .theme-dark span[class^="spoilerContent"][class*="hidden"]:hover,
 .theme-dark div[class^="spoilerContent"][class*="hidden"]:hover,
@@ -1605,7 +1684,7 @@ main[class^="chatContent"]
 .theme-light span[class*="spoilerMarkdownContent"] h5 > span,
 .theme-light span[class*="spoilerMarkdownContent"] ul li > span,
 .theme-light span[class*="spoilerMarkdownContent"] ol li > span {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 .theme-dark span[class*="spoilerMarkdownContent"][class*="hidden"] h1 > span,
 .theme-dark span[class*="spoilerMarkdownContent"][class*="hidden"] h2 > span,
@@ -1629,7 +1708,7 @@ main[class^="chatContent"]
   ol
   li
   > span {
-  background-color: var(--md-surface2);
+  background-color: var(--md-mocha-surface2);
 }
 .theme-dark
   span[class*="spoilerMarkdownContent"][class*="hidden"]:hover
@@ -1706,26 +1785,26 @@ main[class^="chatContent"]
 }
 .theme-dark div[class^="spoilerContainer"] div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"] div[class^="spoilerWarning"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
   background-color: rgba(17, 17, 27, 0.7);
 }
 .theme-dark div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"] {
-  color: var(--md-text);
-  background-color: var(--md-crust);
+  color: var(--md-mocha-text);
+  background-color: var(--md-mocha-crust);
 }
 .theme-dark div[class^="spoilerContainer"] article[class*="embedFull_"],
 .theme-light div[class^="spoilerContainer"] article[class*="embedFull_"] {
-  border-color: var(--md-surface2);
+  border-color: var(--md-mocha-surface2);
 }
 div[class^="cooldownWrapper"] {
   color: var(--text-muted) !important;
 }
 div[class*="autocomplete_"] {
-  background-color: var(--md-mantle) !important;
+  background-color: var(--md-mocha-mantle) !important;
 }
 div[class*="autocomplete_"] div[class*="categoryHeader"] {
-  background-color: var(--md-mantle) !important;
+  background-color: var(--md-mocha-mantle) !important;
 }
 div[class*="autocomplete_"] div[class*="autocompleteRowSubheading"] {
   background-color: rgba(0, 0, 0, 0);
@@ -1734,28 +1813,28 @@ div[class*="autocomplete_"] div[class*="autocompleteRowContentSecondary"] {
   background-color: rgba(0, 0, 0, 0);
 }
 div[class*="autocomplete_"] div[class^="usageWrapper"] > div[class*="title_"] {
-  color: var(--md-mauve0) !important;
+  color: var(--md-mocha-mauve) !important;
 }
 div[class*="autocomplete_"] strong {
-  color: var(--md-mauve0) !important;
+  color: var(--md-mocha-mauve) !important;
 }
 div[class^="channelTextArea"] button[class*="emojiButton_"] {
   background: rgba(0, 0, 0, 0) !important;
 }
 [class^="uploadDropModal"][class*="error"] {
-  background-color: var(--md-red);
+  background-color: var(--md-mocha-red);
 }
 [class^="uploadDropModal"] div[class^="inner"] {
-  border-color: var(--md-crust);
+  border-color: var(--md-mocha-crust);
 }
 [class^="uploadDropModal"] div[class^="inner"] * {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   div[data-list-id^="forum-channel"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="chat"]
   > div[class^="content"]
@@ -1765,14 +1844,14 @@ div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   > div[class^="chatContainer"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   div[class^="matchingPostsRow"]
   span[class^="key"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="chat"]
   > div[class^="content"]
@@ -1786,7 +1865,7 @@ div[class^="chat"]
   div[class^="stepStatus"]
   > svg
   > path {
-  fill: var(--md-subtext0);
+  fill: var(--md-mocha-subtext0);
 }
 div[class^="chat"]
   > div[class^="content"]
@@ -1800,55 +1879,55 @@ div[class^="chat"]
   div[class^="stepStatus"][style*="background-color: var(--status-positive-background);"]
   > svg
   > path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   div[class*="countText"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   svg[class^="discordIcon"] {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust);
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   div[class^="newBadge"] {
-  background-color: var(--md-lavender) !important;
-  color: var(--md-crust);
+  background-color: var(--md-mocha-lavender) !important;
+  color: var(--md-mocha-crust);
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   div[class*="mainCard_"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class^="sidebar"] > section[class^="panels"] svg[class*="buttonIcon_"],
 div[class^="sidebar"] > section[class^="panels"] div[class*="buttonContents"] {
-  fill: var(--md-text);
-  color: var(--md-text);
+  fill: var(--md-mocha-text);
+  color: var(--md-mocha-text);
 }
 [data-list-id^="forum-channel-list"]
   div[class^="body"]
   > div[class^="tags"]
   div[class*="pill"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 [data-list-id^="forum-channel-list"]
   button[class^="submitButton"][class*="colorBrand"] {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust);
 }
 div[class^="applicationCommand"] span[class*="selectedPill_"] {
-  border-color: var(--md-mauve0) !important;
+  border-color: var(--md-mocha-mauve) !important;
 }
 div[class^="applicationCommand"] span[class*="erroredPill_"] {
-  border-color: var(--md-red) !important;
+  border-color: var(--md-mocha-red) !important;
 }
 div[class^="chat"]
   > div[class^="content"]
@@ -1857,7 +1936,7 @@ div[class^="chat"]
   background-color: var(--background-secondary);
 }
 [class*="channelTextAreaInnerError_"] {
-  border: 1px solid var(--md-red) !important;
+  border: 1px solid var(--md-mocha-red) !important;
 }
 div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
@@ -1878,69 +1957,69 @@ div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
   > div[class^="container"]:not([class*="cozy"])
   div[class^="iconWrapper"] {
-  background-color: var(--md-mauve0);
+  background-color: var(--md-mocha-mauve);
 }
 div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
   > div[class^="container"]:not([class*="cozy"])
   div[class^="iconWrapper"]
   svg[class^="icon"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="jumpToPresentBar"] button[class*="barButtonBase_"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="jumpToPresentBar"] span[class^="item"] {
-  background-color: var(--md-crust);
+  background-color: var(--md-mocha-crust);
 }
 div[class^="callContainer"] [class*="controlIcon_"] {
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 div[class^="callContainer"] [class*="controlIcon_"]:hover {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"] div[class*="tile_"],
 div[class^="callContainer"] div[class*="background_"] {
-  background-color: var(--md-base) !important;
+  background-color: var(--md-mocha-base) !important;
 }
 div[class^="callContainer"] div[class*="overlayTitle"],
 div[class^="callContainer"] svg[class*="status_"] {
-  background-color: var(--md-surface0);
-  color: var(--md-text);
+  background-color: var(--md-mocha-surface0);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"] div[class*="header"],
 div[class^="callContainer"] svg[class*="selectedIcon_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"] div[class*="button_"][class*="contents_"],
 div[class^="callContainer"] button[class*="cta_"],
 div[class^="callContainer"] button[class*="participantsButton_"] {
-  background-color: var(--md-surface0);
-  color: var(--md-text);
+  background-color: var(--md-mocha-surface0);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"]
   div[class^="indicators"]
   div[class^="liveQualityIndicator"] {
-  background-color: var(--md-red) !important;
+  background-color: var(--md-mocha-red) !important;
 }
 div[class^="callContainer"]
   div[class^="indicators"]
   div[class^="liveQualityIndicator"]
   svg[class^="premiumStreamIcon"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="children"]
   div[class*="playingText_"] {
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="bottomControls"]
   button[class^="textButton"] {
-  color: var(--md-text);
-  background-color: var(--md-surface1);
+  color: var(--md-mocha-text);
+  background-color: var(--md-mocha-surface1);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1953,7 +2032,7 @@ div[class^="callContainer"]
   div[class^="toolbar"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"] {
-  background-color: var(--md-surface1) !important;
+  background-color: var(--md-mocha-surface1) !important;
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1961,7 +2040,7 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   div[class^="qualityIndicator"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1969,91 +2048,91 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   svg[class^="premiumStreamIcon"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="toolbar"]
   div[class^="liveIndicator"]
   div[class^="live"] {
-  background-color: var(--md-red) !important;
-  color: var(--md-crust) !important;
+  background-color: var(--md-mocha-red) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="toolbar"]
   div[class*="clipsEnabledIndicator"]
   div[class^="clipBadge"] {
-  background-color: var(--md-mauve0) !important;
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve) !important;
+  color: var(--md-mocha-crust);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   button[class*="leftTrayIcon_"][class*="buttonColor_"] {
-  background-color: var(--md-surface0);
-  color: var(--md-text);
+  background-color: var(--md-mocha-surface0);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"] div[class^="videoControls"] div[class^="badge"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="red_"] {
-  background: var(--md-red);
+  background: var(--md-mocha-red);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="red_"]
   [class*="centerIcon_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="red_"]
   svg[class^="contextMenuCaret"]
   path {
-  stroke: var(--md-crust) !important;
+  stroke: var(--md-mocha-crust) !important;
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"] {
-  background: var(--md-surface1);
-  color: var(--md-text);
+  background: var(--md-mocha-surface1);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   [class*="centerIcon_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   svg[class^="raisedHandButtonIcon"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="green_"] {
-  background: var(--md-green);
+  background: var(--md-mocha-green);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="green_"]
   [class*="centerIcon_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="white_"] {
-  color: var(--md-crust);
-  background-color: var(--md-subtext1);
+  color: var(--md-mocha-crust);
+  background-color: var(--md-mocha-subtext1);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="white_"]
   [class*="centerIcon_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -2061,10 +2140,10 @@ div[class^="callContainer"]
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="white_"][class*="active_"] {
-  background: var(--md-text);
+  background: var(--md-mocha-text);
 }
 div[class^="chat"] section[class*="forumOrHome_"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="chat"]
   section[class*="forumOrHome_"]
@@ -2073,44 +2152,44 @@ div[class^="chat"]
   background: none;
 }
 div[class*="giftCodeContainer"] [class*="tile"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class*="giftCodeContainer"] [class*="tile"] > [class*="description"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class*="chat_"] section[class*="header_"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class*="chat_"] div[class*="content_"][class*="container_"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
   div[class*="container"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
   div[class*="search_"] {
-  background-color: var(--md-base) !important;
+  background-color: var(--md-mocha-base) !important;
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
   div[class*="search_"]
   input::placeholder {
-  color: var(--md-overlay0);
+  color: var(--md-mocha-overlay0);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
   div[class*="browser"]
   div[class*="content"]
   div[class^="container"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
   div[class*="scrollerContainer_"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
@@ -2118,40 +2197,40 @@ div[class*="chat_"]
   div[class*="checkIcon_"][style*="opacity: 1;"]
   > svg
   > path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
   div[role="tablist"] {
-  background-color: var(--md-mantle);
-  border-bottom: 2px solid var(--md-surface0);
+  background-color: var(--md-mocha-mantle);
+  border-bottom: 2px solid var(--md-mocha-surface0);
 }
 [class*="textBadge_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class*="chat_"]
   section[class*="title"]
   div[class*="searchBar"]
   span[class*="search"] {
-  background-color: var(--md-surface0);
-  color: var(--md-text);
+  background-color: var(--md-mocha-surface0);
+  color: var(--md-mocha-text);
 }
 nav[class*="pageControl"] div[class*="roundButton"][class*="activeButton"],
 nav[class*="pageControl"]
   div[class*="roundButton"][class*="activeButton"]
   span {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class*="chat_"] li[class*="mainCard_"][class*="container"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class*="chat_"] li[class*="mainCard_"][class*="container"]:hover {
-  background-color: var(--md-surface1);
+  background-color: var(--md-mocha-surface1);
 }
 div[class*="chat_"]
   li[class*="mainCard_"][class*="container"]
   div[class*="contentPreview_"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
   border: none;
 }
 div[class*="chat_"]
@@ -2167,34 +2246,34 @@ div[class*="chat_"]
   background-color: rgba(69, 71, 90, 0.8);
 }
 div[class*="chat_"] div[class*="emptyPage"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class*="chat_"] div[class*="innerHeader"]:after {
   background: none;
 }
 [id*="message-accessories-"] > [class*="invite_"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 [id*="message-accessories-"]
   > [class*="invite_"]
   [class*="inFront_"][class*="header_"] {
-  color: var(--md-subtext0);
+  color: var(--md-mocha-subtext0);
 }
 [id*="message-accessories-"] > [class*="invite_"] [class*="partyStatus_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 [class^="avatar"] [class^="dots"] {
-  color: var(--md-base);
+  color: var(--md-mocha-base);
 }
 div[class^="chat"][class*="page_"],
 div[class^="chat"][class*="page_"] div[class*="content_"][class*="container_"] {
-  background-color: var(--md-crust) !important;
+  background-color: var(--md-mocha-crust) !important;
 }
 div[class^="chat"] div[class^="homeContainer"] {
   height: 100%;
 }
 .messagelogger-deleted div {
-  color: var(--md-red) !important;
+  color: var(--md-mocha-red) !important;
 }
 .messagelogger-deleted div a {
   color: #f17497 !important;
@@ -2203,8 +2282,8 @@ aside[class^="membersWrap"] {
   height: 100%;
 }
 div[class^="upperContainer"] div[class^="akaBadge"] {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust);
 }
 div[class^="message"][class*="isSystemMessage"]
   div[class^="icon"][style*="/assets/b754caa743f8c49fbbf0.svg"],
@@ -2227,7 +2306,7 @@ div[class^="layerContainer"] [role="menu"] {
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"][class*="colorBrand"] {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2244,7 +2323,7 @@ div[class^="layerContainer"]
     [class*="colorDanger"],
     [id*="user-context-user-volume"]
   ):hover {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2268,19 +2347,19 @@ div[class^="layerContainer"]
     [id*="user-context-user-volume"]
   ):hover
   [class*="caret_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]
   [class*="caret"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]:hover
   [class*="caret"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2315,14 +2394,14 @@ div[class^="layerContainer"]
   div[id^="account-switch-account"][class*="focused"]
   div[class*="userMenuUsername"]
   div {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   [role="menu"]
   div[id^="account-switch-account"][class*="focused"]
   svg[class^="activeIcon"]
   circle {
-  fill: var(--md-blue0);
+  fill: var(--md-mocha-blue);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2330,14 +2409,14 @@ div[class^="layerContainer"]
   svg[class^="activeIcon"]
   g
   path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   [role="menu"]
   div[id^="account-switch-account"]
   svg[class^="activeIcon"]
   circle {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2345,7 +2424,7 @@ div[class^="layerContainer"]
   svg[class^="activeIcon"]
   g
   path {
-  fill: var(--md-blue0);
+  fill: var(--md-mocha-blue);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2355,21 +2434,21 @@ div[class^="layerContainer"]
   [class*="colorDefault"]
   [class*="check_"] {
   color: var(--background-floating);
-  background-color: var(--md-red);
+  background-color: var(--md-mocha-red);
 }
 div[class^="layerContainer"]
   [role="menu"]
   #guild-header-popout-premium-subscribe
   div[class^="iconContainer"]
   > svg {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 div[class^="layerContainer"]
   [role="menu"]
   #user-context-user-volume
   div[class*="slider_"]
   div[class*="bar_"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2387,7 +2466,7 @@ div[class^="layerContainer"]
   div[class*="flowerStarContainer_"]
   svg[class*="flowerStar_"]
   * {
-  fill: var(--md-mauve0);
+  fill: var(--md-mocha-mauve);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2399,7 +2478,7 @@ div[class^="layerContainer"]
   div[id^="popout_"]
   > div[class*="didRender_"]
   div[class*="countText"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2413,7 +2492,7 @@ div[class^="layerContainer"]
   > div[class*="didRender_"]
   svg[class*="activeIcon"]
   circle {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2429,7 +2508,7 @@ div[class^="layerContainer"]
   svg[class*="activeIcon"]
   g
   path {
-  fill: var(--md-mauve0);
+  fill: var(--md-mocha-mauve);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2471,7 +2550,7 @@ div[class^="layerContainer"]
   > div[class*="didRender_"]
   div[class*="container"]
   header {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2487,7 +2566,7 @@ div[class^="layerContainer"]
   div[class*="container"]
   header
   > input::placeholder {
-  color: var(--md-overlay1);
+  color: var(--md-mocha-overlay1);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2501,8 +2580,8 @@ div[class^="layerContainer"]
   > div[class*="didRender_"]
   div[class*="container"]
   section {
-  background-color: var(--md-base);
-  color: var(--md-text);
+  background-color: var(--md-mocha-base);
+  color: var(--md-mocha-text);
 }
 div[class*="recentMentionsPopout"]
   div[class^="header"]
@@ -2512,12 +2591,12 @@ div[class*="recentMentionsPopout"]
   div[class^="header"]
   div[class^="tabBar"]
   div[class^="tab"][class*="active_"] {
-  color: var(--md-base);
+  color: var(--md-mocha-base);
 }
 div[class*="recentMentionsPopout"]
   div[class^="header"]
   div[class^="controls-"] {
-  --background-secondary: var(--md-surface0);
+  --background-secondary: var(--md-mocha-surface0);
   --background-primary: rgba(49, 50, 68, 0.9);
 }
 div[class*="recentMentionsPopout"] div[class^="scroller"] [role="button"] {
@@ -2528,7 +2607,7 @@ div[class*="recentMentionsPopout"]
   div[class^="scroller"]
   [role="button"]
   div[class*="jumpButton_"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class*="rolesList"] div[class^="role"],
 div[class*="rolesList"] button[class^="addButton"] {
@@ -2537,7 +2616,7 @@ div[class*="rolesList"] button[class^="addButton"] {
 div[class*="rolesList"]
   div[class^="role"]
   span[class^="roleCircle"][style*="background-color: rgb(185, 187, 190)"] {
-  background-color: var(--md-subtext0) !important;
+  background-color: var(--md-mocha-subtext0) !important;
 }
 div[class*="rolesList"]
   div[class^="role"]
@@ -2545,7 +2624,7 @@ div[class*="rolesList"]
 div[class*="rolesList"]
   div[class^="role"]
   span[class^="roleCircle"][style*="background-color: rgb(53, 57, 64)"] {
-  background-color: var(--md-base) !important;
+  background-color: var(--md-mocha-base) !important;
 }
 div[class*="layerContainer"] > div[class*="layer"] div[class^="reactors"] {
   background-color: var(--background-primary);
@@ -2564,17 +2643,17 @@ div[class*="layerContainer"]
 div[class*="layerContainer"]
   > div[class*="layer"]
   div[class*="friendSelected"] {
-  background: var(--md-surface0) !important;
+  background: var(--md-mocha-surface0) !important;
 }
 section[class*="positionContainer_"] button[class*="navButtonActive"] {
-  background-color: var(--md-mauve0);
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve);
+  color: var(--md-mocha-crust);
 }
 .theme-light #gif-picker-tab-panel {
   background-color: unset;
 }
 .theme-light #gif-picker-tab-panel div[class^="categoryText"] {
-  color: var(--md-base);
+  color: var(--md-mocha-base);
 }
 #emoji-picker-tab-panel
   [class*="stickerInspected_"]
@@ -2583,13 +2662,13 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   background-color: var(--brand-experiment-25a);
 }
 #emoji-picker-tab-panel [class*="newlyAddedHighlight_"] {
-  border: 1px solid var(--md-green);
+  border: 1px solid var(--md-mocha-green);
 }
 #emoji-picker-tab-panel
   [class*="newlyAddedHighlight_"]
   ~ [class*="newlyAddedBadge_"] {
-  background: var(--md-green) !important;
-  color: var(--md-crust);
+  background: var(--md-mocha-green) !important;
+  color: var(--md-mocha-crust);
 }
 [class*="stickerInspected_"] [class^="inspectedIndicator"] {
   background-color: var(--brand-experiment-25a);
@@ -2599,17 +2678,17 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   > div[class^="root"]
   > div[class^="container"]
   div[class*="footer"][class*="footerSeparator_"] {
-  box-shadow: inset 0 1px 0 var(--md-surface0);
-  -webkit-box-shadow: inset 0 1px 0 var(--md-surface0);
+  box-shadow: inset 0 1px 0 var(--md-mocha-surface0);
+  -webkit-box-shadow: inset 0 1px 0 var(--md-mocha-surface0);
 }
 .theme-light > div[class^="focusLock"] > div[class^="root"] {
-  box-shadow: 0 0 0 1px var(--md-surface0),
+  box-shadow: 0 0 0 1px var(--md-mocha-surface0),
     0 2px 10px 0 hsla(0, calc(var(--saturation-factor, 1) * 0%), 0%, 0.1);
-  -webkit-box-shadow: 0 0 0 1px var(--md-surface0),
+  -webkit-box-shadow: 0 0 0 1px var(--md-mocha-surface0),
     0 2px 10px 0 hsla(0, calc(var(--saturation-factor, 1) * 0%), 0%, 0.1);
 }
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] {
-  background-color: var(--md-base) !important;
+  background-color: var(--md-mocha-base) !important;
 }
 .theme-light
   div[class^="focusLock"]
@@ -2617,13 +2696,13 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   button[class^="modalCloseButton"],
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h2,
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h3 {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 .theme-light
   div[class^="focusLock"]
   div[class^="downloadApps"]
   div[class*="footer_"] {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
   background-color: unset !important;
 }
 .theme-light
@@ -2631,7 +2710,7 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   div[class^="downloadApps"]
   div[class*="footer_"]
   a {
-  color: var(--md-blue0);
+  color: var(--md-mocha-blue);
 }
 .theme-light
   div[class^="focusLock"]
@@ -2639,7 +2718,7 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   li[class*="active_"]
   a[class*="downloadButton_"] {
   transition: all 0.3s ease-in-out;
-  color: var(--md-base);
+  color: var(--md-mocha-base);
 }
 .theme-light[class*="profileColors_"] [class*="userTagUsernameBase_"],
 .theme-light[class*="profileColors_"] [class*="discrimBase_"],
@@ -2652,10 +2731,10 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
 .theme-light[class*="profileColors_"] [class*="section_"],
 .theme-light[class*="profileColors_"] [class*="additionalActionsIcon_"],
 .theme-light[class*="profileColors_"] [class*="overlayBackground_"] * {
-  --interactive-normal: var(--md-crust);
-  --text-normal: var(--md-crust);
-  --interactive-active: var(--md-crust);
-  --interactive-hover: var(--md-crust);
+  --interactive-normal: var(--md-mocha-crust);
+  --text-normal: var(--md-mocha-crust);
+  --interactive-active: var(--md-mocha-crust);
+  --interactive-hover: var(--md-mocha-crust);
 }
 .theme-light[class*="profileColors_"] [class*="userTagUsernameBase_"]:not(a),
 .theme-light[class*="profileColors_"] [class*="discrimBase_"]:not(a),
@@ -2674,16 +2753,16 @@ div[class^="layerContainer"] #guild-header-popout,
 div[class^="layerContainer"] #guild-context,
 div[class^="layerContainer"] div[id^="channel-context"],
 div[class^="layerContainer"] div[id^="user-context"] {
-  background: var(--md-crust);
+  background: var(--md-mocha-crust);
 }
 div[class^="layerContainer"] > div[class*="layer"] div[role="listbox"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[role="listbox"]
   div[role="option"][aria-selected="true"] {
-  background: var(--md-surface0);
+  background: var(--md-mocha-surface0);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2691,20 +2770,20 @@ div[class^="layerContainer"]
   div[role="option"]
   svg[class*="selectedIcon"]
   circle {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[role="listbox"]
   div[class*="queryText_"] {
-  color: var(--md-overlay1);
+  color: var(--md-mocha-overlay1);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[role="listbox"]
   div[class*="queryText_"]
   strong {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2722,7 +2801,7 @@ div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   div[class^="contentWrapper"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2784,13 +2863,13 @@ div[class^="layerContainer"]
   div[class^="focusLock"]
   div[class^="contentWrapper"]
   span {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   div[class*="footer"] {
-  background-color: var(--md-crust);
+  background-color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2798,14 +2877,14 @@ div[class^="layerContainer"]
   div[class*="footer"]
   button[type="submit"]
   span {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   div[class*="footer"]
   [class*="footerText_"] {
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2831,7 +2910,7 @@ div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   h6[class^="fixed"] {
-  color: var(--md-red);
+  color: var(--md-mocha-red);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2857,43 +2936,43 @@ div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   h6[class^="fixed"]:after {
-  background-color: var(--md-red);
+  background-color: var(--md-mocha-red);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   div[class*="message_"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"][aria-label="Activities"]
   div[class*="activityItem_"] {
-  background-color: var(--md-crust);
+  background-color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"][aria-label="Activities"]
   div[class*="activityItem_"]
   div[class*="previewBadge_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"][aria-label="Activities"]
   div[class*="activityTag_"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"][aria-label="Manage Accounts"]
   div[class*="navRow_"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="checkbox"][class*="checked_"] {
-  background-color: var(--md-mauve0);
+  background-color: var(--md-mocha-mauve);
   border: none;
 }
 div[class^="layerContainer"]
@@ -2901,10 +2980,10 @@ div[class^="layerContainer"]
   div[class^="checkbox"][class*="checked_"]
   svg
   path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="layerContainer"] div[class^="addGamePopout"] {
-  background-color: var(--md-mantle);
+  background-color: var(--md-mocha-mantle);
 }
 div[class^="layerContainer"] div[class*="searchOption_"]::after,
 div[class^="layerContainer"] div[class*="option_"]::after,
@@ -2912,37 +2991,37 @@ div[class^="layerContainer"] li[class*="option_"]::after {
   display: none;
 }
 div[class^="layerContainer"] div[class^="queryContainer"] {
-  background-color: var(--md-crust) !important;
+  background-color: var(--md-mocha-crust) !important;
 }
 div[class^="layerContainer"] div[class^="queryContainer"] span[class^="key"] {
-  color: var(--md-text);
-  background-color: var(--md-base);
+  color: var(--md-mocha-text);
+  background-color: var(--md-mocha-base);
 }
 div[class^="layerContainer"] [class*="tooltipBrand_"],
 div[class^="layerContainer"] [class*="tooltipRed_"],
 div[class^="layerContainer"] [class*="tooltipGreen_"],
 div[class^="layerContainer"] [class*="tooltipYellow"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   div[class^="popout"]
   div[class^="row"][role="button"]:hover {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   div[class^="popout"]
   div[class^="row"][role="button"]:hover
   [class*="timestamp"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 form[class*="card_"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class*="userInfoSection_"] div[class^="connectedAccountContainer"] {
   background-color: rgba(49, 50, 68, 0.45) !important;
 }
 div[class*="cardWarning_"] div[class*="warning_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 #emoji-picker-tab-panel
   div[class^="tooltipContainer"]
@@ -2955,76 +3034,76 @@ div[class*="cardWarning_"] div[class*="warning_"] {
     right top,
     left top,
     from(#f5c2e7),
-    color-stop(33.33%, var(--md-mauve0)),
+    color-stop(33.33%, var(--md-mocha-mauve)),
     to(#89b4fa)
   );
-  background: linear-gradient(270deg, var(--md-pink), var(--md-mauve0) 33.33%, var(--md-blue0));
+  background: linear-gradient(270deg, var(--md-mocha-pink), var(--md-mocha-mauve) 33.33%, var(--md-mocha-blue));
 }
 button#reaction-picker-tab div[class^="contents"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class*="keyboardShortcutsModal_"] {
-  background-color: var(--md-mantle) !important;
+  background-color: var(--md-mocha-mantle) !important;
 }
 div[class*="keyboardShortcutsModal_"]
   div[class^="keybindShortcut"]
   span[class^="key"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class*="keyboardShortcutsModal_"]
   div[class^="keybindShortcut"]
   span[class^="key"]
   svg
   g {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="planOptionClickableContainer"]
   div[class^="checkbox"][class*="checked"]
   svg
   path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="planOptionClickableContainer"] span[class*="planOptionDiscount_"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 .react-datepicker,
 .react-datepicker__header {
-  background-color: var(--md-mantle) !important;
+  background-color: var(--md-mocha-mantle) !important;
 }
 .react-datepicker__day {
-  background-color: var(--md-crust) !important;
+  background-color: var(--md-mocha-crust) !important;
 }
 .react-datepicker__day:active {
-  background: var(--md-mauve0) !important;
+  background: var(--md-mocha-mauve) !important;
 }
 .react-datepicker__day--selected:after {
-  background-color: var(--md-blue0) !important;
+  background-color: var(--md-mocha-blue) !important;
 }
 [class^="datePickerHint"] [class^="hintValue"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class*="layerContainer_"] div[class^="control"] div[class*="checked_"] {
-  background-color: var(--md-green) !important;
+  background-color: var(--md-mocha-green) !important;
 }
 div[class*="layerContainer_"]
   div[class^="control"]
   div[style*="background-color: rgb(114, 118, 125);"] {
-  background-color: var(--md-surface2) !important;
+  background-color: var(--md-mocha-surface2) !important;
 }
 div[class*="layerContainer_"] div[class*="guildPopout_"][role="dialog"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class*="layerContainer_"]
   div[class*="guildPopout_"][role="dialog"]
   div[class*="guildName_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"] {
-  color: var(--md-overlay1) !important;
+  color: var(--md-mocha-overlay1) !important;
   opacity: 1;
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"]:hover {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class*="userPopoutOuter_"] div[aria-label="HypeSquad Bravery"] img,
 div[class*="userProfileOuter_"] div[aria-label="HypeSquad Bravery"] img {
@@ -3058,7 +3137,7 @@ div[class*="userProfileOuter_"]
   > div[class^="section"]:first-child
   > div[class^="buttonsContainer"]
   > button:nth-child(2) {
-  background: var(--md-mauve0);
+  background: var(--md-mocha-mauve);
 }
 [class*="layerContainer_"] [id^="slate_toolbar"] {
   background-color: var(--background-floating);
@@ -3067,64 +3146,64 @@ div[class*="userProfileOuter_"]
   [id^="slate_toolbar"]
   [class*="buttons_"]
   [class*="icon_"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 [class*="layerContainer_"]
   div[id="sort_and_view"]
   div[id="sort-and-view-reset-all"]
   [style="color: var(--text-normal);"]:hover {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 [class^="layerContainer"] [class^="quickswitcher"] [class*="badge_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   div[aria-label="clyde"]
   div[class^="profileBadges"]
   div[class^="textBadge"] {
-  background-color: var(--md-mauve0) !important;
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve) !important;
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   div[aria-label="clyde"]
   button[class^="messageClydeButton"] {
-  color: var(--md-text);
-  background-color: var(--md-surface1);
+  color: var(--md-mocha-text);
+  background-color: var(--md-mocha-surface1);
 }
 div[class^="layerContainer"]
   div[aria-label="clyde"]
   button[class^="messageClydeButton"]:hover {
-  background-color: var(--md-surface2);
+  background-color: var(--md-mocha-surface2);
 }
 div[class^="layerContainer"]
   div[class^="pencilContainer"]
   svg[class^="editIcon"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="keyboardShortcutsModal"] span[class^="key"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="keyboardShortcutsModal"] span[class^="key"] svg g {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 [class*="disabledPointerEvents"] {
-  --background-floating: var(--md-surface0);
+  --background-floating: var(--md-mocha-surface0);
   --background-tertiary: #242437;
 }
 [class*="disabledPointerEvents"] svg[class^="activityIcon"] {
-  color: var(--md-subtext0);
+  color: var(--md-mocha-subtext0);
 }
 [class*="disabledPointerEvents"]
   [class*="tooltipBrand_"]
   [class*="tooltipText_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class*="disabledPointerEvents"]
   div[class^="flowerStarContainer"]
   div[class^="childContainer"]
   svg
   path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="qualitySettingsContainer"]
   div[class^="settingsGroup"]
@@ -3133,17 +3212,17 @@ div[class^="qualitySettingsContainer"]
   div[class^="settingsGroup"]
   button[class*="selectorButton_"]:hover
   div[class*="selectorText_"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class*="phoneFieldPopout"] {
-  background: var(--md-mantle) !important;
+  background: var(--md-mocha-mantle) !important;
 }
 div[class*="phoneFieldPopout"] div[class^="countryName"],
 div[class*="phoneFieldPopout"] div[class^="countryCode"] {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class^="customColorPicker"] {
-  background: var(--md-mantle) !important;
+  background: var(--md-mocha-mantle) !important;
 }
 div[class^="layerContainer"]
   div[class*="modalContent"]
@@ -3157,13 +3236,13 @@ div[class^="layerContainer"]
   div[class^="guildBoostCta"]
   button[class^="shinyButton"]
   div[class^="content"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   div[class*="enterDone"]
   ul[class^="cards"]
   li[class^="card"] {
-  background-color: var(--md-base);
+  background-color: var(--md-mocha-base);
 }
 div[class^="layerContainer"]
   div[class*="enterDone"]
@@ -3173,10 +3252,10 @@ div[class^="layerContainer"]
   div[class*="enterDone"]
   svg[class^="boostedTierIcon"]
   g {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="layerContainer"] div[class^="streamPreview"] div[class^="body"] {
-  background-color: var(--md-mantle) !important;
+  background-color: var(--md-mocha-mantle) !important;
 }
 div[class^="layerContainer"]
   div[class^="streamPreview"]
@@ -3189,29 +3268,29 @@ div[class^="layerContainer"]
   div[class^="activityStreamPreview"]
   div[class*="content"]
   div {
-  color: var(--md-text) !important;
+  color: var(--md-mocha-text) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
   div[class^="newBadge"] {
-  background-color: var(--md-mauve0) !important;
+  background-color: var(--md-mocha-mauve) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
   div[class^="newBadge"]
   div[class*="newBadgeText_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="containerTop"] div[class^="toast"] svg path[fill="#3BA55C"] {
-  fill: var(--md-green) !important;
+  fill: var(--md-mocha-green) !important;
 }
 div[class^="oauth2Wrapper"] div[class^="scope"] svg {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="layerContainer"]
   button[class*="selectorButtonSelected"]
   div[class*="selectorTextSelected"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 rect[fill="#23a55a"],
 #account-status-picker--online foreignObject > div[class^="status__"],
@@ -3219,37 +3298,37 @@ rect[fill="#299f5b"],
 foreignObject[mask="url(#svg-mask-status-online)"] > div,
 div[class^="dotOnline"],
 i[class^="statusOnline"] {
-  fill: var(--md-green) !important;
-  background-color: var(--md-green) !important;
+  fill: var(--md-mocha-green) !important;
+  background-color: var(--md-mocha-green) !important;
 }
 svg[fill="#23a55a"],
 rect[fill="rgba(35, 165, 90, 1)"],
 rect[fill="rgba(41, 159, 91, 1)"] {
-  fill: var(--md-green) !important;
+  fill: var(--md-mocha-green) !important;
 }
 rect[fill="#f0b232"],
 #account-status-picker--idle foreignObject > div[class^="status__"],
 rect[fill="#e6ae3c"],
 foreignObject[mask="url(#svg-mask-status-idle)"] > div {
-  fill: var(--md-yellow) !important;
-  background-color: var(--md-yellow) !important;
+  fill: var(--md-mocha-yellow) !important;
+  background-color: var(--md-mocha-yellow) !important;
 }
 svg[fill="#f0b232"],
 rect[fill="rgba(240, 178, 50, 1)"],
 rect[fill="rgba(230, 174, 60, 1)"] {
-  fill: var(--md-yellow) !important;
+  fill: var(--md-mocha-yellow) !important;
 }
 rect[fill="#f23f43"],
 #account-status-picker--dnd foreignObject > div[class^="status__"],
 rect[fill="#ea474b"],
 foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
-  fill: var(--md-red) !important;
-  background-color: var(--md-red) !important;
+  fill: var(--md-mocha-red) !important;
+  background-color: var(--md-mocha-red) !important;
 }
 svg[fill="#f23f43"],
 rect[fill="rgba(242, 63, 67, 1)"],
 rect[fill="rgba(230, 174, 60, 1)"] {
-  fill: var(--md-red) !important;
+  fill: var(--md-mocha-red) !important;
 }
 rect[fill="#82858f"],
 rect[fill="#80848e"],
@@ -3258,19 +3337,19 @@ foreignObject[mask="url(#svg-mask-status-offline)"] > div,
 foreignObject[mask="url(#svg-mask-status-offline)"] > rect,
 div[class^="dotOffline"],
 i[class^="statusOffline"] {
-  fill: var(--md-subtext0) !important;
-  background-color: var(--md-subtext0) !important;
+  fill: var(--md-mocha-subtext0) !important;
+  background-color: var(--md-mocha-subtext0) !important;
 }
 svg[fill="#82858f"],
 svg[fill="#80848e"],
 rect[fill="rgba(130, 133, 143, 1)"],
 rect[fill="rgba(128, 132, 142, 1)"] {
-  fill: var(--md-subtext0) !important;
+  fill: var(--md-mocha-subtext0) !important;
 }
 svg[fill="#593695"],
 rect[fill="#593695"],
 rect[fill="#5b3a91"] {
-  fill: var(--md-mauve0) !important;
+  fill: var(--md-mocha-mauve) !important;
 }
 [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
   width: 0 !important;
@@ -3279,17 +3358,17 @@ rect[fill="#5b3a91"] {
   -webkit-mask-image: url("https://discord.com/assets/eaeac24163b35f7526704a3d9b3c7722.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;
-  background: var(--md-green);
+  background: var(--md-mocha-green);
 }
 .vc-user-connection [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
   padding: 16px;
 }
 #vencordthemes-tab [class*="input_"]:focus {
-  border-color: var(--md-mauve0) !important;
+  border-color: var(--md-mocha-mauve) !important;
 }
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
-  background-color: var(--md-mauve0) !important;
-  color: var(--md-crust);
+  background-color: var(--md-mocha-mauve) !important;
+  color: var(--md-mocha-crust);
 }
 span[class*="username_"][style*="color: rgb(54, 57, 62)"],
 span[class*="username_"][style*="color: rgb(53, 57, 64)"] {
@@ -3298,7 +3377,7 @@ span[class*="username_"][style*="color: rgb(53, 57, 64)"] {
 div[class^="flowerStarContainer"][class*="verified_"]
   svg[class^="flowerStar"]
   path {
-  fill: var(--md-green);
+  fill: var(--md-mocha-green);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierOne_"]
   svg[class*="flowerStar_"]
@@ -3306,7 +3385,7 @@ div[class^="flowerStarContainer"][class*="iconBackgroundTierOne_"]
 div[class^="flowerStarContainer"][class*="iconBackgroundTierTwo_"]
   svg[class*="flowerStar_"]
   path {
-  fill: var(--md-surface2);
+  fill: var(--md-mocha-surface2);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierOne_"]
   div[class^="childContainer"]
@@ -3316,71 +3395,71 @@ div[class^="flowerStarContainer"][class*="iconBackgroundTierTwo_"]
   div[class^="childContainer"]
   svg
   path {
-  fill: var(--md-text);
+  fill: var(--md-mocha-text);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierThree_"]
   svg[class*="flowerStar_"]
   path {
-  fill: var(--md-pink);
+  fill: var(--md-mocha-pink);
 }
 div[class^="flowerStarContainer"][class*="partnered_"]
   svg[class^="flowerStar"]
   path {
-  fill: var(--md-mauve0);
+  fill: var(--md-mocha-mauve);
 }
 div[class^="flowerStarContainer"] div[class^="childContainer"] svg path {
-  fill: var(--md-crust);
+  fill: var(--md-mocha-crust);
 }
 div[class^="communityInfoPill"] {
   --background-accent: rgba(30, 30, 46, 0.7);
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 div[class^="communityInfoPill"] div[class^="text"] {
   font-weight: 500;
 }
 a[class*="socialLink_"][href*="discord"] {
-  color: var(--md-subtext0);
+  color: var(--md-mocha-subtext0);
 }
 svg[class^="uploadIcon"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 .theme-dark h2[class^="emptyStateHeader"],
 .theme-light h2[class^="emptyStateHeader"] {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 .theme-dark p[class^="emptyStateSubtext"],
 .theme-light p[class^="emptyStateSubtext"] {
-  color: var(--md-subtext0);
+  color: var(--md-mocha-subtext0);
 }
 div[class*="unreadMentionsBar_"],
 div[class*="unreadBar_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class^="numberBadge"] {
   font-weight: 700;
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="newChannel"] {
-  color: var(--md-crust);
-  background-color: var(--md-mauve0) !important;
+  color: var(--md-mocha-crust);
+  background-color: var(--md-mocha-mauve) !important;
 }
 div[class^="botTag"] {
-  background-color: var(--md-mauve0);
+  background-color: var(--md-mocha-mauve);
 }
 div[class^="pollBadgeDefault"] div[class^="text-xs-semibold"] {
-  color: var(--md-crust) !important;
+  color: var(--md-mocha-crust) !important;
 }
 div[class^="pollBadgeDefault"] svg path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class*="pollContainer"] {
-  background-color: var(--md-mantle) !important;
+  background-color: var(--md-mocha-mantle) !important;
 }
 div[class*="pollContainer"] div[class^="answerInner"] {
-  background-color: var(--md-surface0);
+  background-color: var(--md-mocha-surface0);
 }
 div[class^="addFriendInputWrapper"]:focus-within {
-  border-color: var(--md-mauve0);
+  border-color: var(--md-mocha-mauve);
 }
 #add_friend-tab div[class^="grid"] button img {
   display: none;
@@ -3391,237 +3470,241 @@ div[class^="addFriendInputWrapper"]:focus-within {
   content: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.95431 0 0 8.9543 0 20C0 31.0457 8.95431 40 20 40Z' fill='rgb(166, 227, 161)'/%3E%3Cpath d='M20 18.9C19.39 18.9 18.9 19.39 18.9 20C18.9 20.61 19.39 21.1 20 21.1C20.61 21.1 21.1 20.61 21.1 20C21.1 19.39 20.61 18.9 20 18.9ZM20 10C14.48 10 10 14.48 10 20C10 25.52 14.48 30 20 30C25.52 30 30 25.52 30 20C30 14.48 25.52 10 20 10ZM22.19 22.19L14 26L17.81 17.81L26 14L22.19 22.19Z' fill='rgb(17, 17, 27)'/%3E%3C/svg%3E");
 }
 button[class^="attachButton"] svg path[class^="attachButtonPlay"] {
-  color: var(--md-green);
-  fill: var(--md-green);
+  color: var(--md-mocha-green);
+  fill: var(--md-mocha-green);
 }
 div[class^="tags"] div[class^="pinIcon"] path {
-  fill: var(--md-base) !important;
+  fill: var(--md-mocha-base) !important;
 }
 div[class*="avatarSpeaking_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--md-green),
+  -webkit-box-shadow: inset 0 0 0 2px var(--md-mocha-green),
     inset 0 0 0 3px var(--background-secondary);
-  box-shadow: inset 0 0 0 2px var(--md-green),
+  box-shadow: inset 0 0 0 2px var(--md-mocha-green),
     inset 0 0 0 3px var(--background-secondary);
 }
 div[class*="videoLayer_"]
   > div[class^="tileChild"]
   > div[class^="border"][class*="speaking_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--md-green), inset 0 0 0 3px var(--md-green);
-  box-shadow: inset 0 0 0 2px var(--md-green), inset 0 0 0 3px var(--md-green);
+  -webkit-box-shadow: inset 0 0 0 2px var(--md-mocha-green), inset 0 0 0 3px var(--md-mocha-green);
+  box-shadow: inset 0 0 0 2px var(--md-mocha-green), inset 0 0 0 3px var(--md-mocha-green);
 }
 div[class*="videoLayer_"]
   > div[class^="tileChild"]
   > div[class^="border"][class*="voiceChannelEffect_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--md-mauve0), inset 0 0 0 3px var(--md-mauve0);
-  box-shadow: inset 0 0 0 2px var(--md-mauve0), inset 0 0 0 3px var(--md-mauve0);
+  -webkit-box-shadow: inset 0 0 0 2px var(--md-mocha-mauve), inset 0 0 0 3px var(--md-mocha-mauve);
+  box-shadow: inset 0 0 0 2px var(--md-mocha-mauve), inset 0 0 0 3px var(--md-mocha-mauve);
 }
 div[class*="featureIcon_"] path {
-  fill: var(--md-mauve0);
+  fill: var(--md-mocha-mauve);
 }
 div[class*="backgroundAccent_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 div[class*="profileBadges_"] div[aria-label="Supports Commands"] img {
   content: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a6e3a1'%3E%3Cpath d='m8.1176653 16.0847263 4.8330812-8.1694527h2.9315882l-4.8330812 8.1694527z'/%3E%3Cpath d='m20.4189453 9.4038086v-2.4311524c0-1.9775391-1.0825195-3.1118164-2.9697266-3.1118164h-1.5581055v1.7802734l.9594727-.0014648c.8540039 0 1.34375.5683594 1.34375 1.5585938v2.3969727c0 .8300781.1806641 1.8422852 1.5893555 2.3100586l.2856445.0947265-.2856445.0947266c-1.4086914.4677734-1.5893555 1.4799804-1.5893555 2.3100586v2.3964844c0 .9907227-.4897461 1.559082-1.34375 1.559082l-.9594727-.0014648v1.7802734h1.5581055c1.887207 0 2.9697266-1.1342773 2.9697266-3.1118164v-2.4316406c0-1.2583008.3432617-1.6264648 1.5810547-1.6445312v-1.9023438c-1.237793-.0180665-1.5810547-.3862305-1.5810547-1.6450196z'/%3E%3Cpath d='m5.8061523 7.1982422c0-.9760742.5024414-1.5585938 1.3432617-1.5585938l.9594727.0014648v-1.7802734h-1.5576172c-1.887207 0-2.9697266 1.1342773-2.9697266 3.1118164v2.4311523c0 1.2587891-.3432617 1.6269531-1.581543 1.6450195v1.9023438c1.2382812.0180664 1.581543.3862305 1.581543 1.6445312v2.4316406c0 1.9775391 1.0825195 3.1118164 2.9697266 3.1118164h1.5576172v-1.7802734l-.9594727.0014648c-.8408203 0-1.3432617-.5830078-1.3432617-1.559082v-2.3964844c0-.8300781-.1806641-1.8422852-1.5898438-2.3100586l-.2856444-.0947264.2856445-.0947266c1.4091797-.4677734 1.5898437-1.4799804 1.5898437-2.3100586z'/%3E%3C/g%3E%3C/svg%3E");
 }
 div[class*="newBadge_"],
 div[class*="tryItOutBadge_"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 [class^="tabBar"] [class^="badge"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 span[class*="channelMention"]:hover,
 [class*="mention"]:not(
     [class*="mentionButton_"],
     [class*="mentionIcon_"]
   ):hover {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 span[class^="attachmentLink"]:hover {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 span[class^="attachmentLink"]:hover svg path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class^="checkbox"][class*="checked_"] {
-  border-color: var(--md-crust) !important;
+  border-color: var(--md-mocha-crust) !important;
 }
 div[class^="checkbox"][class*="checked_"] svg path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 path[class^="updateIconForeground"] {
-  fill: var(--md-green) !important;
+  fill: var(--md-mocha-green) !important;
 }
 div[class^="button"][class*="revokeInvite_"] {
-  background-color: var(--md-crust);
+  background-color: var(--md-mocha-crust);
   background-image: url("data:image/svg+xml,%3Csvg height='18' viewBox='0 0 18 18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m14.25 4.808-1.057-1.058-4.193 4.192-4.192-4.192-1.058 1.058 4.192 4.192-4.192 4.193 1.058 1.057 4.192-4.193 4.193 4.193 1.057-1.057-4.193-4.193z' fill='rgb(243, 139, 168)' fill-rule='nonzero'/%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3C/g%3E%3C/svg%3E");
 }
 div[class*="actions_"] button[class*="green_"] {
-  background: var(--md-green);
+  background: var(--md-mocha-green);
 }
 div[class*="actions_"] button[class*="red_"] {
-  background: var(--md-red);
+  background: var(--md-mocha-red);
 }
 div[class*="actions_"] button svg > path {
-  fill: var(--md-crust) !important;
+  fill: var(--md-mocha-crust) !important;
 }
 div[class*="actions_"] div[class^="panelButtonContainer"] button svg > path {
-  fill: var(--md-text) !important;
+  fill: var(--md-mocha-text) !important;
 }
 div[class*="fixClipping"]
   div[class^="tip"]
   div[class*="keybind"]
   span[class^="key"] {
-  color: var(--md-crust);
+  color: var(--md-mocha-crust);
 }
 .theme-dark code.hljs {
-  color: var(--md-text);
-  background: var(--md-base);
+  color: var(--md-mocha-text);
+  background: var(--md-mocha-base);
 }
 .theme-dark code .hljs-keyword {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .theme-dark code .hljs-built_in {
-  color: var(--md-red);
+  color: var(--md-mocha-red);
 }
 .theme-dark code .hljs-type {
-  color: var(--md-yellow);
+  color: var(--md-mocha-yellow);
 }
 .theme-dark code .hljs-literal {
-  color: var(--md-peach);
+  color: var(--md-mocha-peach);
 }
 .theme-dark code .hljs-number {
-  color: var(--md-peach);
+  color: var(--md-mocha-peach);
 }
 .theme-dark code .hljs-operator {
-  color: var(--md-teal);
+  color: var(--md-mocha-teal);
 }
 .theme-dark code .hljs-punctuation {
-  color: var(--md-subtext1);
+  color: var(--md-mocha-subtext1);
 }
 .theme-dark code .hljs-property {
-  color: var(--md-teal);
+  color: var(--md-mocha-teal);
 }
 .theme-dark code .hljs-regexp {
-  color: var(--md-pink);
+  color: var(--md-mocha-pink);
 }
 .theme-dark code .hljs-string {
-  color: var(--md-green);
+  color: var(--md-mocha-green);
 }
 .theme-dark code .hljs-char.escape_ {
-  color: var(--md-green);
+  color: var(--md-mocha-green);
 }
 .theme-dark code .hljs-subst {
-  color: var(--md-subtext0);
+  color: var(--md-mocha-subtext0);
 }
 .theme-dark code .hljs-symbol {
-  color: var(--md-flamingo);
+  color: var(--md-mocha-flamingo);
 }
 .theme-dark code .hljs-variable {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .theme-dark code .hljs-variable.language_ {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .theme-dark code .hljs-variable.constant_ {
-  color: var(--md-peach);
+  color: var(--md-mocha-peach);
 }
 .theme-dark code .hljs-title {
-  color: var(--md-blue0);
+  color: var(--md-mocha-blue);
 }
 .theme-dark code .hljs-title.class_ {
-  color: var(--md-yellow);
+  color: var(--md-mocha-yellow);
 }
 .theme-dark code .hljs-title.function_ {
-  color: var(--md-blue0);
+  color: var(--md-mocha-blue);
 }
 .theme-dark code .hljs-params {
-  color: var(--md-text);
+  color: var(--md-mocha-text);
 }
 .theme-dark code .hljs-comment {
-  color: var(--md-surface2);
+  color: var(--md-mocha-surface2);
 }
 .theme-dark code .hljs-doctag {
-  color: var(--md-red);
+  color: var(--md-mocha-red);
 }
 .theme-dark code .hljs-meta {
-  color: var(--md-peach);
+  color: var(--md-mocha-peach);
 }
 .theme-dark code .hljs-section {
-  color: var(--md-blue0);
+  color: var(--md-mocha-blue);
 }
 .theme-dark code .hljs-tag {
-  color: var(--md-subtext0);
+  color: var(--md-mocha-subtext0);
 }
 .theme-dark code .hljs-name {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .theme-dark code .hljs-attr {
-  color: var(--md-blue0);
+  color: var(--md-mocha-blue);
 }
 .theme-dark code .hljs-attribute {
-  color: var(--md-green);
+  color: var(--md-mocha-green);
 }
 .theme-dark code .hljs-bullet {
-  color: var(--md-teal);
+  color: var(--md-mocha-teal);
 }
 .theme-dark code .hljs-code {
-  color: var(--md-green);
+  color: var(--md-mocha-green);
 }
 .theme-dark code .hljs-emphasis {
-  color: var(--md-red);
+  color: var(--md-mocha-red);
   font-style: italic;
 }
 .theme-dark code .hljs-strong {
-  color: var(--md-red);
+  color: var(--md-mocha-red);
   font-weight: bold;
 }
 .theme-dark code .hljs-formula {
-  color: var(--md-teal);
+  color: var(--md-mocha-teal);
 }
 .theme-dark code .hljs-link {
-  color: var(--md-sapphire);
+  color: var(--md-mocha-sapphire);
   font-style: italic;
 }
 .theme-dark code .hljs-quote {
-  color: var(--md-green);
+  color: var(--md-mocha-green);
   font-style: italic;
 }
 .theme-dark code .hljs-selector-tag {
-  color: var(--md-yellow);
+  color: var(--md-mocha-yellow);
 }
 .theme-dark code .hljs-selector-id {
-  color: var(--md-blue0);
+  color: var(--md-mocha-blue);
 }
 .theme-dark code .hljs-selector-class {
-  color: var(--md-teal);
+  color: var(--md-mocha-teal);
 }
 .theme-dark code .hljs-selector-attr {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .theme-dark code .hljs-selector-pseudo {
-  color: var(--md-teal);
+  color: var(--md-mocha-teal);
 }
 .theme-dark code .hljs-template-tag {
-  color: var(--md-flamingo);
+  color: var(--md-mocha-flamingo);
 }
 .theme-dark code .hljs-template-variable {
-  color: var(--md-flamingo);
+  color: var(--md-mocha-flamingo);
 }
 .theme-dark code .hljs-addition {
-  color: var(--md-green);
+  color: var(--md-mocha-green);
   background: rgba(166, 227, 161, 0.15);
 }
 .theme-dark code .hljs-deletion {
-  color: var(--md-red);
+  color: var(--md-mocha-red);
   background: rgba(243, 139, 168, 0.15);
 }
 
 /* Custom code start here */
 
+.channelTextArea_c2094b {
+  max-width: 140vh;
+  max-height: 50vh;
+}
 .members__573eb {
-	background-color: var(--md-floating);
+	background-color: var(--md-macchiato-crust);
 }
 .members__573eb,
 .membersWrap__5ca6b,
@@ -3659,10 +3742,10 @@ div[class*="fixClipping"]
   height: 40px;
 }
 .name__4eb92, .name__27f04 {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .icon__67ab4 {
-  color: var(--md-mauve1);
+  color: var(--md-latte-mauve);
 }
 .modeUnreadImportant__35358 .icon__67ab4,
 .modeUnreadImportant__35358 .name__4eb92,
@@ -3676,18 +3759,18 @@ div[class*="fixClipping"]
 .modeSelected__473f1:hover .name__4eb92,
 .modeUnreadImportant__35358 .name__4eb92,
 .modeUnreadImportant__35358:hover .name__4eb92 {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .modeUnreadImportant__35358 .name__4eb92,
 .modeUnreadImportant__35358 .icon__67ab4 {
-  color: var(--md-mauve0);
+  color: var(--md-mocha-mauve);
 }
 .mention {
-	background-color: var(--md-mantle);
-	color: var(--md-mauve0);
+	background-color: var(--md-mocha-mantle);
+	color: var(--md-mocha-mauve);
 }
 .mention:hover {
-	background-color: var(--md-mauve1);
+	background-color: var(--md-latte-mauve);
 }
 #app-mount .app_b1f720 .base_c0676e {
 	top: calc(var(--server-container) + var(--spacing)) !important;
