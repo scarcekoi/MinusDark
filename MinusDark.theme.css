@@ -2204,9 +2204,6 @@ div[class*="chat_"]
   background-color: var(--md-mocha-mantle);
   border-bottom: 2px solid var(--md-mocha-surface0);
 }
-[class*="textBadge_"] {
-  color: var(--md-mocha-crust);
-}
 div[class*="chat_"]
   section[class*="title"]
   div[class*="searchBar"]
@@ -2281,8 +2278,8 @@ aside[class^="membersWrap"] {
   height: 100%;
 }
 div[class^="upperContainer"] div[class^="akaBadge"] {
-  background-color: var(--md-mocha-mauve);
-  color: var(--md-mocha-crust);
+  background-color: var(--md-latte-mauve);
+  color: var(--md-black);
 }
 div[class^="message"][class*="isSystemMessage"]
   div[class^="icon"][style*="/assets/b754caa743f8c49fbbf0.svg"],
