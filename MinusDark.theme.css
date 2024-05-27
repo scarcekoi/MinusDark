@@ -3695,6 +3695,49 @@ div[class*="fixClipping"]
 
 /* Custom code start here */
 
+:root {
+	--online-indicator: #a6e3a1;
+	--dnd-indicator: #f38ba8;
+	--idle-indicator: #f9e2af;
+	--streaming-indicator: #cba6f7;
+	
+	--spacing: 12px;
+}
+
+[class^='winButton'] > svg {
+	display: none;
+}
+[class^='winButton'] {
+	background: none !important;
+	top: 0;
+	width: calc(var(--spacing) + 8px);
+	height: calc(var(--spacing) + 8px);
+	margin: -2px 4px 0px 0px;
+}
+[class^='winButtonClose'] {
+	margin: -2px calc(var(--spacing) - 4px) 0px 0px;
+}
+[class^='winButton']::after {
+	content: '';
+	height: 12px;
+	width: 12px;
+	border-radius: 12px;
+}
+[class^='winButton']:hover::after {
+	filter: brightness(0.8);
+}
+[class^='winButton']:active::after {
+	transform: scale(0.9);
+}
+[class^='winButtonClose']::after {
+	background-color: var(--dnd-indicator) !important;
+}
+[class^='winButtonMinMax']:nth-child(3)::after {
+	background-color: var(--online-indicator) !important;
+}
+[class^='winButtonMinMax']:nth-child(4)::after {
+	background-color: var(--idle-indicator) !important;
+}
 .channelTextArea_c2094b {
   max-width: 140vh;
   max-height: 50vh;
