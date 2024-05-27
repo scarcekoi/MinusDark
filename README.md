@@ -1,2 +1,3 @@
 # MinusDark
- A highly cuztomized theme using Catppuccin colors and code.
+
+ A *highly* customized theme using Catppuccin colors and code.
