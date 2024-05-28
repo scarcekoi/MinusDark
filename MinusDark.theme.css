@@ -3698,10 +3698,10 @@ div[class*="fixClipping"]
 	--streaming-indicator: #cba6f7;
 }
 
-div[class*="menu"] {
+[class*="menu"] {
 	background-color: var(--md-mocha-base);
 }
-div[class*="item__183e8"] {
+[class*="item__183e8"] {
 	background-color: var(--md-mocha-crust);
 	border-radius: 5px;
 }
@@ -3718,56 +3718,56 @@ div[class*="item__183e8"] {
   padding: 8px;
   border-radius: 10px;
 } */
-div[class*="unread__48cf4"] {
+[class*="unread__48cf4"] {
 	background-color: var(--md-mocha-mauve);
 }
-div[class^="winButton"] > svg {
+[class^="winButton"] > svg {
 	display: none;
 }
-div[class^="winButton"] {
+[class^="winButton"] {
 	background: none !important;
 	top: 0;
 	width: calc(12px + 8px);
 	height: calc(12px + 8px);
 	margin: -2px 4px 0px 0px;
 }
-div[class^="winButtonClose"] {
+[class^="winButtonClose"] {
 	margin: -2px calc(12px - 4px) 0px 0px;
 }
-div[class^="winButton"]::after {
+[class^="winButton"]::after {
 	content: '';
 	height: 12px;
 	width: 12px;
 	border-radius: 12px;
 }
-div[class^="winButton"]:hover::after {
+[class^="winButton"]:hover::after {
 	filter: brightness(0.8);
 }
-div[class^="winButton"]:active::after {
+[class^="winButton"]:active::after {
 	transform: scale(0.9);
 }
-div[class^="winButtonClose"]::after {
+[class^="winButtonClose"]::after {
 	background-color: var(--dnd-indicator) !important;
 }
-div[class^="winButtonMinMax"]:nth-child(3)::after {
+[class^="winButtonMinMax"]:nth-child(3)::after {
 	background-color: var(--online-indicator) !important;
 }
-div[class^="winButtonMinMax"]:nth-child(4)::after {
+[class^="winButtonMinMax"]:nth-child(4)::after {
 	background-color: var(--idle-indicator) !important;
 }
-div[class*="channelTextArea_c2094b"] {
+[class*="channelTextArea_c2094b"] {
   max-width: 140vh;
   max-height: 50vh;
 }
-div[class*="members__573eb"] {
+[class*="members__573eb"] {
 	background-color: var(--md-macchiato-crust);
 }
-div[class*="role__18ec9"], div[class*="showMoreButton__50b95"], div[class*="compactButton__87ab2"]  {
+[class*="role__18ec9"], [class*="showMoreButton__50b95"], [class*="compactButton__87ab2"]  {
 	background-color: var(--md-mocha-base);
 }
-div[class*="members__573eb"],
-div[class*="membersWrap__5ca6b"],
-div[class*="container_f79ab4"] {
+[class*="members__573eb"],
+[class*="membersWrap__5ca6b"],
+[class*="container_f79ab4"] {
   min-width: 60px;
   transition-duration: 500ms;
   transition-property: box-shadow, min-width, width;
@@ -3775,84 +3775,74 @@ div[class*="container_f79ab4"] {
   z-index: 10;
 }
 
-div[class*="members__573eb"]:hover,
-div[class*="membersWrap__5ca6b"]:hover {
+[class*="members__573eb"]:hover,
+[class*="membersWrap__5ca6b"]:hover {
   min-width: 240px;
   width: 240px;
 }
 
-div[class*="membersWrap__5ca6b"] {
+[class*="membersWrap__5ca6b"] {
   height: 100%;
   position: absolute;
   right: 0;
 }
 
-div[class*="membersWrap__5ca6b"]:hover {
+[class*="membersWrap__5ca6b"]:hover {
   box-shadow: 0 0 20px 10px #00000044;
 }
 
-div[class*="membersGroup_cad095"] {
+[class*="membersGroup_cad095"] {
   height: 0;
   transition-duration: 500ms;
   transition-property: height;
 }
 
-div[class*="members__573eb"]:hover div[class*="membersGroup_cad095"] {
+[class*="members__573eb"]:hover [class*="membersGroup_cad095"] {
   height: 40px;
 }
-div[class*="name__4eb92"], div[class*="name__27f04"] {
+[class*="name__4eb92"], [class*="name__27f04"] {
   color: var(--md-mocha-mauve);
 }
-div[class*="icon__67ab4"] {
+[class*="icon__67ab4"] {
   color: var(--md-latte-mauve);
 }
-div[class*="modeUnreadImportant__35358"] div[class*="icon__67ab4"],
-div[class*="modeUnreadImportant__35358"] div[class*="name__4eb92"],
-div[class*="modeSelected__473f1"] div[class*="icon__67ab4"],
-div[class*="modeSelected__473f1"]:hover div[class*="icon__67ab4"],
-div[class*="modeUnreadImportant__35358"] div[class*="icon__67ab4"],
-div[class*="modeUnreadImportant__35358"]:hover div[class*="icon__67ab4"],
-div[class*="modeConnected__52a8f"] div[class*="name__4eb92"],
-div[class*="modeConnected__52a8f"]:hover div[class*="name__4eb92"],
-div[class*="modeSelected__473f1"] div[class*="name__4eb92"],
-div[class*="modeSelected__473f1"]:hover div[class*="name__4eb92"],
-div[class*="modeUnreadImportant__35358"] div[class*="name__4eb92"],
-div[class*="modeUnreadImportant__35358"]:hover div[class*="name__4eb92"] {
+[class*="modeUnreadImportant__35358"] [class*="name__4eb92"],
+[class*="modeUnreadImportant__35358"] [class*="icon__67ab4"] {
   color: var(--md-mocha-mauve);
 }
-
-div[class*="modeUnreadImportant__35358"] div[class*="name__4eb92"],
-div[class*="modeUnreadImportant__35358"] div[class*="icon__67ab4"] {
-  color: var(--md-mocha-mauve);
+[class*="membersGroup_cad095"] {
+  height: 0;
+  transition-duration: 500ms;
+  transition-property: height;
 }
-div[class*="mention"] {
+[class*="mention"] {
 	background-color: var(--md-latte-base);
 	color: var(--md-latte-mauve);
 }
-div[class*="mention:hover"] {
+[class*="mention"]:hover {
 	background-color: var(--md-latte-mauve);
 }
-#app-mount div[class*="app_b1f720"] div[class*="base_c0676e"] {
+#app-mount [class*="app_b1f720"] [class*="base_c0676e"] {
 	top: calc(var(--server-container) + 12px) !important;
 }
-div[class*="wrapper__612a5"] div[class*"=link_ddbb36"] /* channels */,
-div[class*="container_a48b21"] /* members */,
-div[class*="channel__0aef5"] /* dms */,
-div[class*="side_b4b3f6"] div[class*="item__48dda"] /* settings */ {
+[class*="wrapper__612a5"] [class*"=link_ddbb36"] /* channels */,
+[class*="container_a48b21"] /* members */,
+[class*="channel__0aef5"] /* dms */,
+[class*="side_b4b3f6"] [class*="item__48dda"] /* settings */ {
 	transition: margin-left var(--list-item-transition);
 }
-div[class*="wrapper__612a5"]:hover div[class*="link_ddbb36"],
-div[class*="side_b4b3f6"] div[class*="item__48dda"]:hover {
+[class*="wrapper__612a5"]:hover [class*="link_ddbb36"],
+[class*="side_b4b3f6"] [class*="item__48dda"]:hover {
 	margin-left: 10px;
 }
-div[class*="container_a48b21"]:hover,
-div[class*="channel__0aef5"]:hover {
+[class*="container_a48b21"]:hover,
+[class*="channel__0aef5"]:hover {
 	margin-left: 18px;
 }
-div[class*="button_ae40a4"] /* make user panel buttons round */ {
+[class*="button_ae40a4"] /* make user panel buttons round */ {
 	border-radius: 50%;
 }
-div[class*="button_ae40a4:last-child"] [class*="contents__322f4"] /* settings button */, 
+[class*="button_ae40a4:last-child"] [class*="contents__322f4"] /* settings button */, 
 [class*="attachButton__56f98"] [class*="attachButtonInner__84c26"] /* upload button */,
 [class*="emojiButton_b63c38"] [class*="contents__322f4"] /* emoji button */,
 [class*="closeButton__8177f"] /* settings exit button */,
