@@ -1,4 +1,4 @@
 # MinusDark
 
  A **_highly customized_** theme using Catppuccin colors and code.
-![diff1](https://github.com/scarcekoi/MinusDark/assets/111240985/0303c17e-9714-4483-9bc4-018a27844188)
+![v0 3](https://github.com/scarcekoi/MinusDark/assets/111240985/86e52bbd-4aca-400e-8ff1-79acebc014bb)
