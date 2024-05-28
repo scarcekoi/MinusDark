@@ -1283,7 +1283,7 @@ div[class^="standardSidebarView"]
   div[class^="noticeRegion"]
   div[class^="actions"]
   button {
-  background-color: var(--md-mocha-mauve);
+  background-color: var(--md-latte-mauve);
   color: var(--md-mocha-crust) !important;
   border-color: var(--md-mocha-crust);
 }
