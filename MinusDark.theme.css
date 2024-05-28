@@ -3824,8 +3824,8 @@ div[class*="fixClipping"]
   color: var(--md-mocha-mauve);
 }
 .mention {
-	background-color: var(--md-mocha-mantle);
-	color: var(--md-mocha-mauve);
+	background-color: var(--md-latte-base);
+	color: var(--md-latte-mauve);
 }
 .mention:hover {
 	background-color: var(--md-latte-mauve);
