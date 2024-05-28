@@ -117,7 +117,7 @@
 
 [data-popout-root],
 html {
-  --brand-experiment: var(--md-mocha-mauve);
+  --brand-experiment: var(--md-mocha-blue);
   --brand-experiment-100: white;
   --brand-experiment-130: white;
   --brand-experiment-160: white;
@@ -3702,7 +3702,7 @@ div[class*="fixClipping"]
 	background-color: var(--md-mocha-base);
 }
 .item__183e8 {
-	background-color: var(--md-mocha-base);
+	background-color: var(--md-mocha-crust);
 	border-radius: 5px;
 }
 /*.cozyMessage__9f4fd .contents_d3ae0d > .markup_a7e664:not(:empty, code) {
