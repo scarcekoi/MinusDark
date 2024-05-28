@@ -9,8 +9,6 @@
 */
 
 :root {
-  --md-black: black;
-  --md-floating: #0d0d15;
   --md-mocha-crust: #11111b;
   --md-macchiato-crust: #181926;
   --md-frappe-crust: #dce0e8;
@@ -133,7 +131,7 @@ html {
   --brand-experiment-430: #e6d5fb;
   --brand-experiment-460: #d9bdf9;
   --brand-experiment-500: var(--md-mocha-mauve);
-  --brand-experiment-530: #bd8ff5;
+  --brand-experiment-530: var(--md-latte-mauve);
   --brand-experiment-560: #b077f3;
   --brand-experiment-600: #a260f1;
   --brand-experiment-630: #9448ef;
@@ -181,8 +179,8 @@ html {
   --background-secondary: var(--md-mocha-mantle);
   --background-secondary-alt: #14141f;
   --background-tertiary: var(--md-mocha-crust);
-  --background-accent: var(--md-mocha-mauve);
-  --background-floating: var(--md-floating);
+  --background-accent: var(--md-latte-mauve);
+  --background-floating: #0d0d15;
   --background-nested-floating: var(--md-mocha-mantle);
   --background-mobile-primary: var(--md-mocha-base);
   --background-mobile-secondary: var(--md-mocha-mantle);
@@ -1212,7 +1210,7 @@ div[class^="homeContainer"] {
 div[class^="homeContainer"] > div[class^="homeContent"] div[class*="card_"] {
   background: var(--md-mocha-surface0) !important;
 }
-section[class^="title"] {
+section[class^="title"]: {
   background: var(--background-primary) !important;
 }
 div[class^="categoryItem"][class*="selectedCategoryItem"],
@@ -2277,7 +2275,7 @@ aside[class^="membersWrap"] {
 }
 div[class^="upperContainer"] div[class^="akaBadge"] {
   background-color: var(--md-latte-mauve);
-  color: var(--md-black);
+  color: black;
 }
 div[class^="message"][class*="isSystemMessage"]
   div[class^="icon"][style*="/assets/b754caa743f8c49fbbf0.svg"],
@@ -3700,6 +3698,13 @@ div[class*="fixClipping"]
 	--streaming-indicator: #cba6f7;
 }
 
+.menu__088f7 {
+	background-color: var(--md-mocha-base);
+}
+.item__183e8 {
+	background-color: var(--md-mocha-base);
+	border-radius: 5px;
+}
 /*.cozyMessage__9f4fd .contents_d3ae0d > .markup_a7e664:not(:empty, code) {
   background-color: var(--md-mocha-base);
   display: inline-block;
