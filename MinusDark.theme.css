@@ -3705,8 +3705,9 @@ div[class*="item__183e8"] {
 	background-color: var(--md-mocha-crust);
 	border-radius: 5px;
 }
+/* Uncomment to get rounded messages */
 /*.cozyMessage__9f4fd .contents_d3ae0d > .markup_a7e664:not(:empty, code) {
-  background-color: var(--md-mocha-base);
+  background-color: var(--md-mocha-crust);
   display: inline-block;
   max-width: 650px;
   width: -webkit-fit-content;
@@ -3774,8 +3775,8 @@ div[class*="container_f79ab4"] {
   z-index: 10;
 }
 
-div[class*="members__573eb:hover"],
-div[class*="membersWrap__5ca6b:hover"] {
+div[class*="members__573eb"]:hover,
+div[class*="membersWrap__5ca6b"]:hover {
   min-width: 240px;
   width: 240px;
 }
@@ -3786,7 +3787,7 @@ div[class*="membersWrap__5ca6b"] {
   right: 0;
 }
 
-div[class*="membersWrap__5ca6b:hover"] {
+div[class*="membersWrap__5ca6b"]:hover {
   box-shadow: 0 0 20px 10px #00000044;
 }
 
@@ -3796,7 +3797,7 @@ div[class*="membersGroup_cad095"] {
   transition-property: height;
 }
 
-div[class*="members__573eb:hover"] div[class*="membersGroup_cad095"] {
+div[class*="members__573eb"]:hover div[class*="membersGroup_cad095"] {
   height: 40px;
 }
 div[class*="name__4eb92"], div[class*="name__27f04"] {
@@ -3808,15 +3809,15 @@ div[class*="icon__67ab4"] {
 div[class*="modeUnreadImportant__35358"] div[class*="icon__67ab4"],
 div[class*="modeUnreadImportant__35358"] div[class*="name__4eb92"],
 div[class*="modeSelected__473f1"] div[class*="icon__67ab4"],
-div[class*="modeSelected__473f1:hover"] div[class*="icon__67ab4"],
+div[class*="modeSelected__473f1"]:hover div[class*="icon__67ab4"],
 div[class*="modeUnreadImportant__35358"] div[class*="icon__67ab4"],
-div[class*="modeUnreadImportant__35358:hover"] div[class*="icon__67ab4"],
+div[class*="modeUnreadImportant__35358"]:hover div[class*="icon__67ab4"],
 div[class*="modeConnected__52a8f"] div[class*="name__4eb92"],
-div[class*="modeConnected__52a8f:hover"] div[class*="name__4eb92"],
+div[class*="modeConnected__52a8f"]:hover div[class*="name__4eb92"],
 div[class*="modeSelected__473f1"] div[class*="name__4eb92"],
-div[class*="modeSelected__473f1:hover"] div[class*="name__4eb92"],
+div[class*="modeSelected__473f1"]:hover div[class*="name__4eb92"],
 div[class*="modeUnreadImportant__35358"] div[class*="name__4eb92"],
-div[class*="modeUnreadImportant__35358:hover"] div[class*="name__4eb92"] {
+div[class*="modeUnreadImportant__35358"]:hover div[class*="name__4eb92"] {
   color: var(--md-mocha-mauve);
 }
 
@@ -3840,12 +3841,12 @@ div[class*="channel__0aef5"] /* dms */,
 div[class*="side_b4b3f6"] div[class*="item__48dda"] /* settings */ {
 	transition: margin-left var(--list-item-transition);
 }
-div[class*="wrapper__612a5:hover"] div[class*="link_ddbb36"],
-div[class*="side_b4b3f6"] div[class*="item__48dda:hover"] {
+div[class*="wrapper__612a5"]:hover div[class*="link_ddbb36"],
+div[class*="side_b4b3f6"] div[class*="item__48dda"]:hover {
 	margin-left: 10px;
 }
-div[class*="container_a48b21:hover"],
-div[class*="channel__0aef5:hover"] {
+div[class*="container_a48b21"]:hover,
+div[class*="channel__0aef5"]:hover {
 	margin-left: 18px;
 }
 div[class*="button_ae40a4"] /* make user panel buttons round */ {
