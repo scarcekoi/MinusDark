@@ -306,7 +306,7 @@ html {
   --control-brand-foreground: var(--md-mocha-mauve);
   --control-brand-foreground-new: var(--md-mocha-mauve);
   --mention-foreground: var(--md-mocha-mauve);
-  --mention-background: #cba6f74d;
+  --mention-background: var(--md-latte-base);
   --background-mentioned: #f9e2af1a;
   --background-mentioned-hover: #f9e2af14;
   --background-message-hover: #11111b40;
@@ -3814,13 +3814,6 @@ div[class*="fixClipping"]
   height: 0;
   transition-duration: 500ms;
   transition-property: height;
-}
-[class*="mention"] {
-	background-color: var(--md-latte-base);
-	color: var(--md-latte-mauve);
-}
-[class*="mention"]:hover {
-	background-color: var(--md-latte-mauve);
 }
 #app-mount [class*="app_b1f720"] [class*="base_c0676e"] {
 	top: calc(var(--server-container) + 12px) !important;
