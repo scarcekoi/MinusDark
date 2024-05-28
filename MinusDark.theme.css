@@ -3704,7 +3704,9 @@ div[class*="fixClipping"]
 	--spacing: 12px;
 }
 
-
+.unread__48cf4 {
+	background-color: var(--md-mocha-mauve);
+}
 [class^='winButton'] > svg {
 	display: none;
 }
