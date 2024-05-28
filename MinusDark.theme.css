@@ -117,7 +117,7 @@
 
 [data-popout-root],
 html {
-  --brand-experiment: var(--md-mocha-blue);
+  --brand-experiment: var(--md-mocha-sapphire);
   --brand-experiment-100: white;
   --brand-experiment-130: white;
   --brand-experiment-160: white;
@@ -132,7 +132,7 @@ html {
   --brand-experiment-460: #d9bdf9;
   --brand-experiment-500: var(--md-mocha-mauve);
   --brand-experiment-530: var(--md-latte-mauve);
-  --brand-experiment-560: #b077f3;
+  --brand-experiment-560: var(--md-mocha-blue);
   --brand-experiment-600: #a260f1;
   --brand-experiment-630: #9448ef;
   --brand-experiment-660: #8731ec;
